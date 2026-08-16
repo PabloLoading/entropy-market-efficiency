@@ -1,0 +1,442 @@
+[
+  {
+    "episodio": "dot-com",
+    "ticker": "XLK",
+    "sector": "Tecnología",
+    "pe_pre": 0.98992,
+    "pe_min": 0.95823,
+    "caida": 0.0317,
+    "fecha_min": "2001-01-05",
+    "drawdown_precio": -0.8205
+  },
+  {
+    "episodio": "dot-com",
+    "ticker": "XLE",
+    "sector": "Energía",
+    "pe_pre": 0.99221,
+    "pe_min": 0.97876,
+    "caida": 0.01345,
+    "fecha_min": "2001-02-06",
+    "drawdown_precio": -0.4153
+  },
+  {
+    "episodio": "dot-com",
+    "ticker": "XLV",
+    "sector": "Salud",
+    "pe_pre": 0.99203,
+    "pe_min": 0.97949,
+    "caida": 0.01255,
+    "fecha_min": "2002-01-22",
+    "drawdown_precio": -0.298
+  },
+  {
+    "episodio": "dot-com",
+    "ticker": "XLF",
+    "sector": "Financiero",
+    "pe_pre": 0.99136,
+    "pe_min": 0.97669,
+    "caida": 0.01467,
+    "fecha_min": "2002-05-13",
+    "drawdown_precio": -0.3664
+  },
+  {
+    "episodio": "dot-com",
+    "ticker": "XLP",
+    "sector": "Consumo básico",
+    "pe_pre": 0.9974,
+    "pe_min": 0.97187,
+    "caida": 0.02553,
+    "fecha_min": "2001-10-03",
+    "drawdown_precio": -0.3287
+  },
+  {
+    "episodio": "dot-com",
+    "ticker": "XLY",
+    "sector": "Consumo discrecional",
+    "pe_pre": 0.98528,
+    "pe_min": 0.96435,
+    "caida": 0.02093,
+    "fecha_min": "2001-09-21",
+    "drawdown_precio": -0.3154
+  },
+  {
+    "episodio": "dot-com",
+    "ticker": "XLI",
+    "sector": "Industrial",
+    "pe_pre": 0.97793,
+    "pe_min": 0.97835,
+    "caida": -0.00042,
+    "fecha_min": "2001-09-27",
+    "drawdown_precio": -0.4352
+  },
+  {
+    "episodio": "dot-com",
+    "ticker": "XLU",
+    "sector": "Utilities",
+    "pe_pre": 0.99424,
+    "pe_min": 0.97738,
+    "caida": 0.01686,
+    "fecha_min": "2001-09-06",
+    "drawdown_precio": -0.5227
+  },
+  {
+    "episodio": "dot-com",
+    "ticker": "XLB",
+    "sector": "Materiales",
+    "pe_pre": 0.9892,
+    "pe_min": 0.98176,
+    "caida": 0.00744,
+    "fecha_min": "2002-07-05",
+    "drawdown_precio": -0.3115
+  },
+  {
+    "episodio": "dot-com",
+    "ticker": "SPY",
+    "sector": "S&P 500 (referencia)",
+    "pe_pre": 0.98796,
+    "pe_min": 0.9607,
+    "caida": 0.02726,
+    "fecha_min": "2003-01-22",
+    "drawdown_precio": -0.4752
+  },
+  {
+    "episodio": "crisis-2008",
+    "ticker": "XLK",
+    "sector": "Tecnología",
+    "pe_pre": 0.98386,
+    "pe_min": 0.9853,
+    "caida": -0.00144,
+    "fecha_min": "2007-10-11",
+    "drawdown_precio": -0.5304
+  },
+  {
+    "episodio": "crisis-2008",
+    "ticker": "XLE",
+    "sector": "Energía",
+    "pe_pre": 0.97998,
+    "pe_min": 0.97243,
+    "caida": 0.00755,
+    "fecha_min": "2009-03-03",
+    "drawdown_precio": -0.5736
+  },
+  {
+    "episodio": "crisis-2008",
+    "ticker": "XLV",
+    "sector": "Salud",
+    "pe_pre": 0.98785,
+    "pe_min": 0.97459,
+    "caida": 0.01326,
+    "fecha_min": "2009-06-15",
+    "drawdown_precio": -0.3917
+  },
+  {
+    "episodio": "crisis-2008",
+    "ticker": "XLF",
+    "sector": "Financiero",
+    "pe_pre": 0.99413,
+    "pe_min": 0.97861,
+    "caida": 0.01552,
+    "fecha_min": "2009-08-28",
+    "drawdown_precio": -0.818
+  },
+  {
+    "episodio": "crisis-2008",
+    "ticker": "XLP",
+    "sector": "Consumo básico",
+    "pe_pre": 0.99861,
+    "pe_min": 0.97354,
+    "caida": 0.02507,
+    "fecha_min": "2008-03-11",
+    "drawdown_precio": -0.3239
+  },
+  {
+    "episodio": "crisis-2008",
+    "ticker": "XLY",
+    "sector": "Consumo discrecional",
+    "pe_pre": 0.98302,
+    "pe_min": 0.98491,
+    "caida": -0.00189,
+    "fecha_min": "2007-10-30",
+    "drawdown_precio": -0.5657
+  },
+  {
+    "episodio": "crisis-2008",
+    "ticker": "XLI",
+    "sector": "Industrial",
+    "pe_pre": 0.98614,
+    "pe_min": 0.98058,
+    "caida": 0.00556,
+    "fecha_min": "2007-10-17",
+    "drawdown_precio": -0.6226
+  },
+  {
+    "episodio": "crisis-2008",
+    "ticker": "XLU",
+    "sector": "Utilities",
+    "pe_pre": 0.99384,
+    "pe_min": 0.98219,
+    "caida": 0.01165,
+    "fecha_min": "2008-12-04",
+    "drawdown_precio": -0.4648
+  },
+  {
+    "episodio": "crisis-2008",
+    "ticker": "XLB",
+    "sector": "Materiales",
+    "pe_pre": 0.98911,
+    "pe_min": 0.98117,
+    "caida": 0.00794,
+    "fecha_min": "2009-01-15",
+    "drawdown_precio": -0.5982
+  },
+  {
+    "episodio": "crisis-2008",
+    "ticker": "SPY",
+    "sector": "S&P 500 (referencia)",
+    "pe_pre": 0.99033,
+    "pe_min": 0.98826,
+    "caida": 0.00207,
+    "fecha_min": "2009-01-02",
+    "drawdown_precio": -0.5519
+  },
+  {
+    "episodio": "covid",
+    "ticker": "XLK",
+    "sector": "Tecnología",
+    "pe_pre": 0.99278,
+    "pe_min": 0.97087,
+    "caida": 0.02191,
+    "fecha_min": "2020-09-17",
+    "drawdown_precio": -0.3115
+  },
+  {
+    "episodio": "covid",
+    "ticker": "XLE",
+    "sector": "Energía",
+    "pe_pre": 0.99773,
+    "pe_min": 0.99178,
+    "caida": 0.00594,
+    "fecha_min": "2020-04-30",
+    "drawdown_precio": -0.5628
+  },
+  {
+    "episodio": "covid",
+    "ticker": "XLV",
+    "sector": "Salud",
+    "pe_pre": 0.99634,
+    "pe_min": 0.97326,
+    "caida": 0.02308,
+    "fecha_min": "2020-09-11",
+    "drawdown_precio": -0.2793
+  },
+  {
+    "episodio": "covid",
+    "ticker": "XLF",
+    "sector": "Financiero",
+    "pe_pre": 0.99679,
+    "pe_min": 0.98404,
+    "caida": 0.01274,
+    "fecha_min": "2020-06-12",
+    "drawdown_precio": -0.4279
+  },
+  {
+    "episodio": "covid",
+    "ticker": "XLP",
+    "sector": "Consumo básico",
+    "pe_pre": 0.99563,
+    "pe_min": 0.98647,
+    "caida": 0.00916,
+    "fecha_min": "2020-05-07",
+    "drawdown_precio": -0.2435
+  },
+  {
+    "episodio": "covid",
+    "ticker": "XLY",
+    "sector": "Consumo discrecional",
+    "pe_pre": 0.99024,
+    "pe_min": 0.9878,
+    "caida": 0.00244,
+    "fecha_min": "2020-09-11",
+    "drawdown_precio": -0.3391
+  },
+  {
+    "episodio": "covid",
+    "ticker": "XLI",
+    "sector": "Industrial",
+    "pe_pre": 0.99119,
+    "pe_min": 0.98668,
+    "caida": 0.00452,
+    "fecha_min": "2020-08-20",
+    "drawdown_precio": -0.4158
+  },
+  {
+    "episodio": "covid",
+    "ticker": "XLU",
+    "sector": "Utilities",
+    "pe_pre": 0.99167,
+    "pe_min": 0.98117,
+    "caida": 0.0105,
+    "fecha_min": "2020-08-06",
+    "drawdown_precio": -0.3559
+  },
+  {
+    "episodio": "covid",
+    "ticker": "XLB",
+    "sector": "Materiales",
+    "pe_pre": 0.98722,
+    "pe_min": 0.97835,
+    "caida": 0.00888,
+    "fecha_min": "2020-09-11",
+    "drawdown_precio": -0.3631
+  },
+  {
+    "episodio": "covid",
+    "ticker": "XLRE",
+    "sector": "Real Estate",
+    "pe_pre": 0.99763,
+    "pe_min": 0.98461,
+    "caida": 0.01302,
+    "fecha_min": "2020-07-17",
+    "drawdown_precio": -0.3882
+  },
+  {
+    "episodio": "covid",
+    "ticker": "XLC",
+    "sector": "Comunicaciones",
+    "pe_pre": 0.99027,
+    "pe_min": 0.98204,
+    "caida": 0.00823,
+    "fecha_min": "2020-09-11",
+    "drawdown_precio": -0.3015
+  },
+  {
+    "episodio": "covid",
+    "ticker": "SPY",
+    "sector": "S&P 500 (referencia)",
+    "pe_pre": 0.99617,
+    "pe_min": 0.98,
+    "caida": 0.01617,
+    "fecha_min": "2020-09-11",
+    "drawdown_precio": -0.3372
+  },
+  {
+    "episodio": "tasas-2022",
+    "ticker": "XLK",
+    "sector": "Tecnología",
+    "pe_pre": 0.99422,
+    "pe_min": 0.98023,
+    "caida": 0.01399,
+    "fecha_min": "2022-11-09",
+    "drawdown_precio": -0.3313
+  },
+  {
+    "episodio": "tasas-2022",
+    "ticker": "XLE",
+    "sector": "Energía",
+    "pe_pre": 0.9931,
+    "pe_min": 0.98372,
+    "caida": 0.00938,
+    "fecha_min": "2022-02-23",
+    "drawdown_precio": -0.2604
+  },
+  {
+    "episodio": "tasas-2022",
+    "ticker": "XLV",
+    "sector": "Salud",
+    "pe_pre": 0.99656,
+    "pe_min": 0.98538,
+    "caida": 0.01118,
+    "fecha_min": "2022-04-27",
+    "drawdown_precio": -0.1606
+  },
+  {
+    "episodio": "tasas-2022",
+    "ticker": "XLF",
+    "sector": "Financiero",
+    "pe_pre": 0.99475,
+    "pe_min": 0.9809,
+    "caida": 0.01385,
+    "fecha_min": "2022-11-09",
+    "drawdown_precio": -0.2581
+  },
+  {
+    "episodio": "tasas-2022",
+    "ticker": "XLP",
+    "sector": "Consumo básico",
+    "pe_pre": 0.9875,
+    "pe_min": 0.98336,
+    "caida": 0.00413,
+    "fecha_min": "2022-05-27",
+    "drawdown_precio": -0.163
+  },
+  {
+    "episodio": "tasas-2022",
+    "ticker": "XLY",
+    "sector": "Consumo discrecional",
+    "pe_pre": 0.98058,
+    "pe_min": 0.9724,
+    "caida": 0.00818,
+    "fecha_min": "2022-02-28",
+    "drawdown_precio": -0.3589
+  },
+  {
+    "episodio": "tasas-2022",
+    "ticker": "XLI",
+    "sector": "Industrial",
+    "pe_pre": 0.99109,
+    "pe_min": 0.97549,
+    "caida": 0.0156,
+    "fecha_min": "2022-01-18",
+    "drawdown_precio": -0.2164
+  },
+  {
+    "episodio": "tasas-2022",
+    "ticker": "XLU",
+    "sector": "Utilities",
+    "pe_pre": 0.99172,
+    "pe_min": 0.98587,
+    "caida": 0.00585,
+    "fecha_min": "2022-07-22",
+    "drawdown_precio": -0.2072
+  },
+  {
+    "episodio": "tasas-2022",
+    "ticker": "XLB",
+    "sector": "Materiales",
+    "pe_pre": 0.99588,
+    "pe_min": 0.98268,
+    "caida": 0.0132,
+    "fecha_min": "2022-04-28",
+    "drawdown_precio": -0.2472
+  },
+  {
+    "episodio": "tasas-2022",
+    "ticker": "XLRE",
+    "sector": "Real Estate",
+    "pe_pre": 0.98722,
+    "pe_min": 0.95472,
+    "caida": 0.0325,
+    "fecha_min": "2022-08-29",
+    "drawdown_precio": -0.3224
+  },
+  {
+    "episodio": "tasas-2022",
+    "ticker": "XLC",
+    "sector": "Comunicaciones",
+    "pe_pre": 0.99755,
+    "pe_min": 0.99367,
+    "caida": 0.00387,
+    "fecha_min": "2023-01-27",
+    "drawdown_precio": -0.3868
+  },
+  {
+    "episodio": "tasas-2022",
+    "ticker": "SPY",
+    "sector": "S&P 500 (referencia)",
+    "pe_pre": 0.99313,
+    "pe_min": 0.97967,
+    "caida": 0.01346,
+    "fecha_min": "2022-10-13",
+    "drawdown_precio": -0.245
+  }
+]

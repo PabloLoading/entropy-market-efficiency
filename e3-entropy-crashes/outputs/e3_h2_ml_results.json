@@ -1,0 +1,148 @@
+{
+  "multi_asset_new": {
+    "label": "14 activos, split 2015/2017",
+    "results": [
+      {
+        "config": "W=140_all",
+        "train_n": 448,
+        "test_n": 194,
+        "r2_test_a": -0.18770877914159878,
+        "r2_test_b": -0.17670475116243045,
+        "delta_r2_test": 0.01100402797916833,
+        "mae_test_a": 0.0784910501061018,
+        "mae_test_b": 0.07705495873848792,
+        "feat_importance_with_pe": {
+          "pe_t": 0.1423,
+          "drawdown_actual_t": 0.1359,
+          "vol_realizada_t": 0.1323,
+          "vol_pre_peak": 0.4681,
+          "reversal_5d_t": 0.1214
+        }
+      },
+      {
+        "config": "W=140_leq25",
+        "train_n": 380,
+        "test_n": 172,
+        "r2_test_a": 0.09530378986164212,
+        "r2_test_b": 0.08281923278501957,
+        "delta_r2_test": -0.012484557076622549,
+        "mae_test_a": 0.03790956577982753,
+        "mae_test_b": 0.037493659992054555,
+        "feat_importance_with_pe": {
+          "pe_t": 0.1645,
+          "drawdown_actual_t": 0.1467,
+          "vol_realizada_t": 0.3575,
+          "vol_pre_peak": 0.1403,
+          "reversal_5d_t": 0.191
+        }
+      },
+      {
+        "config": "W=180_all",
+        "train_n": 448,
+        "test_n": 194,
+        "r2_test_a": -0.18921618656290873,
+        "r2_test_b": -0.15953955035694034,
+        "delta_r2_test": 0.029676636205968387,
+        "mae_test_a": 0.07841749271639102,
+        "mae_test_b": 0.07544757374168821,
+        "feat_importance_with_pe": {
+          "pe_t": 0.1734,
+          "drawdown_actual_t": 0.1256,
+          "vol_realizada_t": 0.1403,
+          "vol_pre_peak": 0.4474,
+          "reversal_5d_t": 0.1133
+        }
+      },
+      {
+        "config": "W=180_leq25",
+        "train_n": 380,
+        "test_n": 172,
+        "r2_test_a": 0.0788727508622078,
+        "r2_test_b": 0.08527044238861925,
+        "delta_r2_test": 0.006397691526411453,
+        "mae_test_a": 0.03782981021409152,
+        "mae_test_b": 0.037205526771560214,
+        "feat_importance_with_pe": {
+          "pe_t": 0.149,
+          "drawdown_actual_t": 0.1878,
+          "vol_realizada_t": 0.3289,
+          "vol_pre_peak": 0.1411,
+          "reversal_5d_t": 0.1932
+        }
+      }
+    ]
+  },
+  "gspc_only_old": {
+    "label": "solo ^GSPC, split 2000/2002",
+    "results": [
+      {
+        "config": "W=140_all",
+        "train_n": 83,
+        "test_n": 29,
+        "r2_test_a": 0.11379595336163029,
+        "r2_test_b": 0.04082715709418561,
+        "delta_r2_test": -0.07296879626744468,
+        "mae_test_a": 0.06844117302741981,
+        "mae_test_b": 0.06797299972092764,
+        "feat_importance_with_pe": {
+          "pe_t": 0.3099,
+          "drawdown_actual_t": 0.1582,
+          "vol_realizada_t": 0.1217,
+          "vol_pre_peak": 0.2448,
+          "reversal_5d_t": 0.1654
+        }
+      },
+      {
+        "config": "W=140_leq25",
+        "train_n": 73,
+        "test_n": 25,
+        "r2_test_a": 0.04967980320550591,
+        "r2_test_b": 0.042457100657568025,
+        "delta_r2_test": -0.007222702547937887,
+        "mae_test_a": 0.03822661944336591,
+        "mae_test_b": 0.03796871463511339,
+        "feat_importance_with_pe": {
+          "pe_t": 0.1494,
+          "drawdown_actual_t": 0.1825,
+          "vol_realizada_t": 0.2905,
+          "vol_pre_peak": 0.1118,
+          "reversal_5d_t": 0.2659
+        }
+      },
+      {
+        "config": "W=180_all",
+        "train_n": 83,
+        "test_n": 29,
+        "r2_test_a": 0.11379595336163029,
+        "r2_test_b": 0.2253354044670799,
+        "delta_r2_test": 0.1115394511054496,
+        "mae_test_a": 0.06844117302741982,
+        "mae_test_b": 0.06326144608426246,
+        "feat_importance_with_pe": {
+          "pe_t": 0.2312,
+          "drawdown_actual_t": 0.1726,
+          "vol_realizada_t": 0.1157,
+          "vol_pre_peak": 0.2811,
+          "reversal_5d_t": 0.1994
+        }
+      },
+      {
+        "config": "W=180_leq25",
+        "train_n": 73,
+        "test_n": 25,
+        "r2_test_a": 0.04967980320550591,
+        "r2_test_b": 0.17844934283950775,
+        "delta_r2_test": 0.12876953963400184,
+        "mae_test_a": 0.0382266194433659,
+        "mae_test_b": 0.03525426131538715,
+        "feat_importance_with_pe": {
+          "pe_t": 0.2009,
+          "drawdown_actual_t": 0.1751,
+          "vol_realizada_t": 0.2725,
+          "vol_pre_peak": 0.105,
+          "reversal_5d_t": 0.2465
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "config": {
+    "m": 4,
+    "tau": 1,
+    "windows": [
+      252,
+      504
+    ],
+    "boot_reps": 2000,
+    "seed": 42
+  },
+  "results": {
+    "w252": {
+      "pe_sp600_mean": 0.984854,
+      "pe_sp500_mean": 0.983507,
+      "diff_mean_all": 0.001347,
+      "diff_mean_nonoverlap": 0.000647,
+      "n_nonoverlap": 31,
+      "ci95": [
+        -0.00236,
+        0.003776
+      ],
+      "crosses_zero": true
+    },
+    "w504": {
+      "pe_sp600_mean": 0.992163,
+      "pe_sp500_mean": 0.991086,
+      "diff_mean_all": 0.001077,
+      "diff_mean_nonoverlap": 5.3e-05,
+      "n_nonoverlap": 15,
+      "ci95": [
+        -0.002145,
+        0.002254
+      ],
+      "crosses_zero": true
+    }
+  }
+}

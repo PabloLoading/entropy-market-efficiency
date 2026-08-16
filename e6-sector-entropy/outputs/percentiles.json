@@ -1,0 +1,437 @@
+{
+  "w140": {
+    "XLK": {
+      "sector": "Tecnología",
+      "anios": 26,
+      "percentil_promedio": 0.398,
+      "ci95": [
+        0.296,
+        0.507
+      ],
+      "confianza_direccional": 0.967,
+      "senal": "ineficiente (significativo al 90%)",
+      "veces_ultimo": 7,
+      "p_binomial_ultimos": 0.015
+    },
+    "XLE": {
+      "sector": "Energía",
+      "anios": 26,
+      "percentil_promedio": 0.583,
+      "ci95": [
+        0.479,
+        0.681
+      ],
+      "confianza_direccional": 0.94,
+      "senal": "sin señal formal",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.943
+    },
+    "XLV": {
+      "sector": "Salud",
+      "anios": 26,
+      "percentil_promedio": 0.494,
+      "ci95": [
+        0.397,
+        0.585
+      ],
+      "confianza_direccional": 0.544,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.771
+    },
+    "XLF": {
+      "sector": "Financiero",
+      "anios": 26,
+      "percentil_promedio": 0.475,
+      "ci95": [
+        0.342,
+        0.605
+      ],
+      "confianza_direccional": 0.645,
+      "senal": "sin señal formal",
+      "veces_ultimo": 7,
+      "p_binomial_ultimos": 0.015
+    },
+    "XLP": {
+      "sector": "Consumo básico",
+      "anios": 26,
+      "percentil_promedio": 0.501,
+      "ci95": [
+        0.389,
+        0.618
+      ],
+      "confianza_direccional": 0.509,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.771
+    },
+    "XLY": {
+      "sector": "Consumo discrecional",
+      "anios": 26,
+      "percentil_promedio": 0.469,
+      "ci95": [
+        0.354,
+        0.588
+      ],
+      "confianza_direccional": 0.683,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.771
+    },
+    "XLI": {
+      "sector": "Industrial",
+      "anios": 26,
+      "percentil_promedio": 0.505,
+      "ci95": [
+        0.399,
+        0.61
+      ],
+      "confianza_direccional": 0.534,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.771
+    },
+    "XLU": {
+      "sector": "Utilities",
+      "anios": 26,
+      "percentil_promedio": 0.557,
+      "ci95": [
+        0.458,
+        0.661
+      ],
+      "confianza_direccional": 0.858,
+      "senal": "sin señal formal",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.943
+    },
+    "XLB": {
+      "sector": "Materiales",
+      "anios": 26,
+      "percentil_promedio": 0.527,
+      "ci95": [
+        0.436,
+        0.619
+      ],
+      "confianza_direccional": 0.731,
+      "senal": "sin señal formal",
+      "veces_ultimo": 0,
+      "p_binomial_ultimos": 1.0
+    },
+    "XLRE": {
+      "sector": "Real Estate",
+      "anios": 10,
+      "percentil_promedio": 0.522,
+      "ci95": [
+        0.309,
+        0.727
+      ],
+      "confianza_direccional": 0.576,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.281
+    },
+    "XLC": {
+      "sector": "Comunicaciones",
+      "anios": 7,
+      "percentil_promedio": 0.435,
+      "ci95": [
+        0.24,
+        0.643
+      ],
+      "confianza_direccional": 0.752,
+      "senal": "sin señal formal",
+      "veces_ultimo": 0,
+      "p_binomial_ultimos": 1.0
+    }
+  },
+  "w252": {
+    "XLK": {
+      "sector": "Tecnología",
+      "anios": 26,
+      "percentil_promedio": 0.45,
+      "ci95": [
+        0.352,
+        0.551
+      ],
+      "confianza_direccional": 0.84,
+      "senal": "sin señal formal",
+      "veces_ultimo": 4,
+      "p_binomial_ultimos": 0.285
+    },
+    "XLE": {
+      "sector": "Energía",
+      "anios": 26,
+      "percentil_promedio": 0.624,
+      "ci95": [
+        0.512,
+        0.723
+      ],
+      "confianza_direccional": 0.987,
+      "senal": "eficiente (significativo al 95%)",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.943
+    },
+    "XLV": {
+      "sector": "Salud",
+      "anios": 26,
+      "percentil_promedio": 0.509,
+      "ci95": [
+        0.405,
+        0.61
+      ],
+      "confianza_direccional": 0.577,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.771
+    },
+    "XLF": {
+      "sector": "Financiero",
+      "anios": 26,
+      "percentil_promedio": 0.403,
+      "ci95": [
+        0.29,
+        0.516
+      ],
+      "confianza_direccional": 0.949,
+      "senal": "sin señal formal",
+      "veces_ultimo": 5,
+      "p_binomial_ultimos": 0.128
+    },
+    "XLP": {
+      "sector": "Consumo básico",
+      "anios": 26,
+      "percentil_promedio": 0.531,
+      "ci95": [
+        0.419,
+        0.64
+      ],
+      "confianza_direccional": 0.701,
+      "senal": "sin señal formal",
+      "veces_ultimo": 3,
+      "p_binomial_ultimos": 0.519
+    },
+    "XLY": {
+      "sector": "Consumo discrecional",
+      "anios": 26,
+      "percentil_promedio": 0.486,
+      "ci95": [
+        0.385,
+        0.593
+      ],
+      "confianza_direccional": 0.602,
+      "senal": "sin señal formal",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.943
+    },
+    "XLI": {
+      "sector": "Industrial",
+      "anios": 26,
+      "percentil_promedio": 0.498,
+      "ci95": [
+        0.398,
+        0.603
+      ],
+      "confianza_direccional": 0.516,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.771
+    },
+    "XLU": {
+      "sector": "Utilities",
+      "anios": 26,
+      "percentil_promedio": 0.562,
+      "ci95": [
+        0.453,
+        0.672
+      ],
+      "confianza_direccional": 0.869,
+      "senal": "sin señal formal",
+      "veces_ultimo": 3,
+      "p_binomial_ultimos": 0.519
+    },
+    "XLB": {
+      "sector": "Materiales",
+      "anios": 26,
+      "percentil_promedio": 0.471,
+      "ci95": [
+        0.376,
+        0.566
+      ],
+      "confianza_direccional": 0.714,
+      "senal": "sin señal formal",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.943
+    },
+    "XLRE": {
+      "sector": "Real Estate",
+      "anios": 10,
+      "percentil_promedio": 0.46,
+      "ci95": [
+        0.208,
+        0.704
+      ],
+      "confianza_direccional": 0.623,
+      "senal": "sin señal formal",
+      "veces_ultimo": 4,
+      "p_binomial_ultimos": 0.015
+    },
+    "XLC": {
+      "sector": "Comunicaciones",
+      "anios": 7,
+      "percentil_promedio": 0.435,
+      "ci95": [
+        0.227,
+        0.682
+      ],
+      "confianza_direccional": 0.723,
+      "senal": "sin señal formal",
+      "veces_ultimo": 0,
+      "p_binomial_ultimos": 1.0
+    }
+  },
+  "w504": {
+    "XLK": {
+      "sector": "Tecnología",
+      "anios": 26,
+      "percentil_promedio": 0.4,
+      "ci95": [
+        0.305,
+        0.497
+      ],
+      "confianza_direccional": 0.979,
+      "senal": "ineficiente (significativo al 95%)",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.774
+    },
+    "XLE": {
+      "sector": "Energía",
+      "anios": 26,
+      "percentil_promedio": 0.645,
+      "ci95": [
+        0.548,
+        0.732
+      ],
+      "confianza_direccional": 0.998,
+      "senal": "eficiente (significativo al 99%)",
+      "veces_ultimo": 0,
+      "p_binomial_ultimos": 1.0
+    },
+    "XLV": {
+      "sector": "Salud",
+      "anios": 26,
+      "percentil_promedio": 0.469,
+      "ci95": [
+        0.37,
+        0.572
+      ],
+      "confianza_direccional": 0.732,
+      "senal": "sin señal formal",
+      "veces_ultimo": 3,
+      "p_binomial_ultimos": 0.525
+    },
+    "XLF": {
+      "sector": "Financiero",
+      "anios": 26,
+      "percentil_promedio": 0.288,
+      "ci95": [
+        0.2,
+        0.383
+      ],
+      "confianza_direccional": 1.0,
+      "senal": "ineficiente (significativo al 99%)",
+      "veces_ultimo": 9,
+      "p_binomial_ultimos": 0.001
+    },
+    "XLP": {
+      "sector": "Consumo básico",
+      "anios": 26,
+      "percentil_promedio": 0.485,
+      "ci95": [
+        0.386,
+        0.589
+      ],
+      "confianza_direccional": 0.617,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.774
+    },
+    "XLY": {
+      "sector": "Consumo discrecional",
+      "anios": 26,
+      "percentil_promedio": 0.483,
+      "ci95": [
+        0.384,
+        0.58
+      ],
+      "confianza_direccional": 0.631,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.774
+    },
+    "XLI": {
+      "sector": "Industrial",
+      "anios": 26,
+      "percentil_promedio": 0.479,
+      "ci95": [
+        0.382,
+        0.574
+      ],
+      "confianza_direccional": 0.668,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.774
+    },
+    "XLU": {
+      "sector": "Utilities",
+      "anios": 26,
+      "percentil_promedio": 0.644,
+      "ci95": [
+        0.539,
+        0.748
+      ],
+      "confianza_direccional": 0.997,
+      "senal": "eficiente (significativo al 99%)",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.944
+    },
+    "XLB": {
+      "sector": "Materiales",
+      "anios": 26,
+      "percentil_promedio": 0.593,
+      "ci95": [
+        0.475,
+        0.704
+      ],
+      "confianza_direccional": 0.942,
+      "senal": "sin señal formal",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.944
+    },
+    "XLRE": {
+      "sector": "Real Estate",
+      "anios": 9,
+      "percentil_promedio": 0.548,
+      "ci95": [
+        0.287,
+        0.788
+      ],
+      "confianza_direccional": 0.644,
+      "senal": "sin señal formal",
+      "veces_ultimo": 3,
+      "p_binomial_ultimos": 0.06
+    },
+    "XLC": {
+      "sector": "Comunicaciones",
+      "anios": 6,
+      "percentil_promedio": 0.485,
+      "ci95": [
+        0.227,
+        0.758
+      ],
+      "confianza_direccional": 0.564,
+      "senal": "sin señal formal",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.487
+    }
+  }
+}

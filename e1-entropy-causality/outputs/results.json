@@ -1,0 +1,7581 @@
+{
+  "e1_pe": {
+    "n_obs": 7648,
+    "labels": [
+      "Returns",
+      "Entropy",
+      "Momentum",
+      "Reversal",
+      "Volatility",
+      "Liquidity",
+      "Volume"
+    ],
+    "causal_order": [
+      "Liquidity",
+      "Reversal",
+      "Entropy",
+      "Volatility",
+      "Volume",
+      "Returns",
+      "Momentum"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Entropy": true,
+      "Momentum": true,
+      "Reversal": true,
+      "Volatility": true,
+      "Liquidity": true,
+      "Volume": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.41192590550125113,
+        0.0,
+        0.0,
+        -0.052297078178113465
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.05405611892921282,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.10723804007292002,
+        -0.5145560241866285,
+        0.14954549409344084,
+        -0.04902781641767151
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.05090838819442929,
+        0.0,
+        -0.0859965925462362,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.26661491934095694,
+        0.075809606231018,
+        -0.32044558037350257,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.028,
+        0.046,
+        0.628,
+        0.19,
+        0.002,
+        0.422
+      ],
+      [
+        0.032,
+        0.0,
+        0.104,
+        0.122,
+        0.196,
+        0.692,
+        0.004
+      ],
+      [
+        0.06,
+        0.248,
+        0.0,
+        0.892,
+        0.546,
+        1.0,
+        0.388
+      ],
+      [
+        0.372,
+        0.112,
+        0.106,
+        0.0,
+        0.096,
+        0.348,
+        0.004
+      ],
+      [
+        0.274,
+        0.182,
+        0.454,
+        0.612,
+        0.0,
+        0.778,
+        0.018
+      ],
+      [
+        0.0,
+        0.004,
+        0.0,
+        0.002,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.558,
+        0.048,
+        0.414,
+        0.996,
+        0.806,
+        1.0,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        0.0010528946573381116,
+        0.004441156862900676,
+        0.2620282073168352,
+        0.00860527952115214,
+        5.81445273333831e-05,
+        -0.02412830670532943
+      ],
+      [
+        0.0011508544166393682,
+        0.0,
+        -0.0017467417074618723,
+        0.005447628120382194,
+        -0.009356119414550938,
+        -0.07024700980824908,
+        -0.00015535326713428794
+      ],
+      [
+        0.002917015052359813,
+        -0.004115024769424367,
+        0.0,
+        0.1082051909755213,
+        -0.28342801197693646,
+        0.20053199888663217,
+        -0.021235341781042437
+      ],
+      [
+        0.1608336988939816,
+        0.004560505661453909,
+        0.016206124502661894,
+        0.0,
+        0.008199765759496729,
+        0.014833288010324746,
+        -0.0010470564129182358
+      ],
+      [
+        0.010124420849358497,
+        -0.0027191906133931546,
+        -0.22459249018866007,
+        -0.026886442147979705,
+        0.0,
+        -0.026186269122653448,
+        0.00024025935188864267
+      ],
+      [
+        0.0,
+        -0.00017416013845007738,
+        0.0,
+        4.425984267064332e-05,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.03519524077834507,
+        -0.0014082180870873108,
+        -0.028097248019353725,
+        -0.247295917357849,
+        0.056789040042739714,
+        -0.33910584730394566,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Liquidity",
+        "target": "Momentum",
+        "mean_effect": 0.20053199888663217,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volume",
+        "mean_effect": -0.33910584730394566,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.247295917357849,
+        "edge_prob": 0.996
+      },
+      {
+        "source": "Reversal",
+        "target": "Momentum",
+        "mean_effect": 0.1082051909755213,
+        "edge_prob": 0.892
+      },
+      {
+        "source": "Volatility",
+        "target": "Volume",
+        "mean_effect": 0.056789040042739714,
+        "edge_prob": 0.806
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volatility",
+        "mean_effect": -0.026186269122653448,
+        "edge_prob": 0.778
+      },
+      {
+        "source": "Liquidity",
+        "target": "Entropy",
+        "mean_effect": -0.07024700980824908,
+        "edge_prob": 0.692
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.2620282073168352,
+        "edge_prob": 0.628
+      },
+      {
+        "source": "Reversal",
+        "target": "Volatility",
+        "mean_effect": -0.026886442147979705,
+        "edge_prob": 0.612
+      },
+      {
+        "source": "Returns",
+        "target": "Volume",
+        "mean_effect": -0.03519524077834507,
+        "edge_prob": 0.558
+      },
+      {
+        "source": "Volatility",
+        "target": "Momentum",
+        "mean_effect": -0.28342801197693646,
+        "edge_prob": 0.546
+      }
+    ],
+    "tie_rate_log_returns": 0.0003734594796464584,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Liquidity": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "ffd",
+        "d": 0.3,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 21,
+      "n_independent": 2,
+      "fraction_independent": 0.09523809523809523
+    }
+  },
+  "e1_wpe": {
+    "n_obs": 7648,
+    "labels": [
+      "Returns",
+      "Entropy",
+      "Momentum",
+      "Reversal",
+      "Volatility",
+      "Liquidity",
+      "Volume"
+    ],
+    "causal_order": [
+      "Liquidity",
+      "Reversal",
+      "Volatility",
+      "Volume",
+      "Returns",
+      "Momentum",
+      "Entropy"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Entropy": true,
+      "Momentum": true,
+      "Reversal": true,
+      "Volatility": true,
+      "Liquidity": true,
+      "Volume": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.41192590550125113,
+        0.0,
+        0.0,
+        -0.052297078178113465
+      ],
+      [
+        0.0,
+        0.0,
+        -0.11033679595422936,
+        0.03975055119706508,
+        -0.051877132971711766,
+        0.0,
+        -0.05534433663852305
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.10723804007292002,
+        -0.5145560241866285,
+        0.14954549409344084,
+        -0.04902781641767151
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.05090838819442929,
+        0.0,
+        -0.0859965925462362,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.26661491934095694,
+        0.075809606231018,
+        -0.32044558037350257,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.0,
+        0.048,
+        0.634,
+        0.186,
+        0.002,
+        0.398
+      ],
+      [
+        0.01,
+        0.0,
+        0.752,
+        0.7,
+        0.51,
+        0.54,
+        0.44
+      ],
+      [
+        0.046,
+        0.212,
+        0.0,
+        0.898,
+        0.55,
+        1.0,
+        0.384
+      ],
+      [
+        0.366,
+        0.054,
+        0.1,
+        0.0,
+        0.086,
+        0.34,
+        0.004
+      ],
+      [
+        0.26,
+        0.076,
+        0.45,
+        0.612,
+        0.0,
+        0.778,
+        0.014
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.002,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.58,
+        0.42,
+        0.426,
+        0.996,
+        0.812,
+        1.0,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        0.0,
+        0.004559302530290463,
+        0.26487194132109254,
+        0.008487373204946323,
+        -4.9197683573654715e-05,
+        -0.022826498233056703
+      ],
+      [
+        -0.00019599841054358463,
+        0.0,
+        -0.08562938373688513,
+        0.03828623514352832,
+        -0.040772498780215445,
+        0.021849999160353614,
+        -0.024019585585133996
+      ],
+      [
+        0.0024362322143821414,
+        -0.014148202290803638,
+        0.0,
+        0.10913198435185326,
+        -0.28531321969416945,
+        0.20079069032051677,
+        -0.021237819445044073
+      ],
+      [
+        0.1583685066287567,
+        0.002780248763012106,
+        0.015579850632434136,
+        0.0,
+        0.007569049914769474,
+        0.014501941183603062,
+        -0.001043543437449054
+      ],
+      [
+        0.009463417197331726,
+        -0.0014078290585935365,
+        -0.2226132874380179,
+        -0.026648677397459478,
+        0.0,
+        -0.026447614734166836,
+        0.00011703320191849657
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        4.425984267064332e-05,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.03671015431790326,
+        -0.018641140805848264,
+        -0.029853316736401514,
+        -0.24564619458297066,
+        0.05634651640930323,
+        -0.33826580234970616,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Liquidity",
+        "target": "Momentum",
+        "mean_effect": 0.20079069032051677,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volume",
+        "mean_effect": -0.33826580234970616,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.24564619458297066,
+        "edge_prob": 0.996
+      },
+      {
+        "source": "Reversal",
+        "target": "Momentum",
+        "mean_effect": 0.10913198435185326,
+        "edge_prob": 0.898
+      },
+      {
+        "source": "Volatility",
+        "target": "Volume",
+        "mean_effect": 0.05634651640930323,
+        "edge_prob": 0.812
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volatility",
+        "mean_effect": -0.026447614734166836,
+        "edge_prob": 0.778
+      },
+      {
+        "source": "Momentum",
+        "target": "Entropy",
+        "mean_effect": -0.08562938373688513,
+        "edge_prob": 0.752
+      },
+      {
+        "source": "Reversal",
+        "target": "Entropy",
+        "mean_effect": 0.03828623514352832,
+        "edge_prob": 0.7
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.26487194132109254,
+        "edge_prob": 0.634
+      },
+      {
+        "source": "Reversal",
+        "target": "Volatility",
+        "mean_effect": -0.026648677397459478,
+        "edge_prob": 0.612
+      },
+      {
+        "source": "Returns",
+        "target": "Volume",
+        "mean_effect": -0.03671015431790326,
+        "edge_prob": 0.58
+      },
+      {
+        "source": "Volatility",
+        "target": "Momentum",
+        "mean_effect": -0.28531321969416945,
+        "edge_prob": 0.55
+      },
+      {
+        "source": "Liquidity",
+        "target": "Entropy",
+        "mean_effect": 0.021849999160353614,
+        "edge_prob": 0.54
+      },
+      {
+        "source": "Volatility",
+        "target": "Entropy",
+        "mean_effect": -0.040772498780215445,
+        "edge_prob": 0.51
+      }
+    ],
+    "tie_rate_log_returns": 0.0003734594796464584,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Liquidity": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "ffd",
+        "d": 0.3,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 21,
+      "n_independent": 1,
+      "fraction_independent": 0.047619047619047616
+    }
+  },
+  "e1_rolling_pe": {
+    "window": 500,
+    "step": 126,
+    "n_windows": 57,
+    "windows": [
+      {
+        "start_date": "1995-08-10",
+        "end_date": "1997-07-31",
+        "causal_order": [
+          "Entropy",
+          "Returns",
+          "Reversal",
+          "Volume",
+          "Liquidity",
+          "Momentum",
+          "Volatility"
+        ]
+      },
+      {
+        "start_date": "1996-02-08",
+        "end_date": "1998-01-30",
+        "causal_order": [
+          "Entropy",
+          "Returns",
+          "Reversal",
+          "Momentum",
+          "Volatility",
+          "Volume",
+          "Liquidity"
+        ]
+      },
+      {
+        "start_date": "1996-08-08",
+        "end_date": "1998-07-31",
+        "causal_order": [
+          "Returns",
+          "Reversal",
+          "Liquidity",
+          "Entropy",
+          "Volatility",
+          "Momentum",
+          "Volume"
+        ]
+      },
+      {
+        "start_date": "1997-02-06",
+        "end_date": "1999-02-01",
+        "causal_order": [
+          "Returns",
+          "Volatility",
+          "Entropy",
+          "Reversal",
+          "Liquidity",
+          "Momentum",
+          "Volume"
+        ]
+      },
+      {
+        "start_date": "1997-08-07",
+        "end_date": "1999-08-02",
+        "causal_order": [
+          "Volatility",
+          "Volume",
+          "Returns",
+          "Reversal",
+          "Liquidity",
+          "Entropy",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "1998-02-06",
+        "end_date": "2000-01-31",
+        "causal_order": [
+          "Returns",
+          "Reversal",
+          "Volatility",
+          "Momentum",
+          "Entropy",
+          "Volume",
+          "Liquidity"
+        ]
+      },
+      {
+        "start_date": "1998-08-07",
+        "end_date": "2000-07-31",
+        "causal_order": [
+          "Volume",
+          "Entropy",
+          "Liquidity",
+          "Volatility",
+          "Momentum",
+          "Returns",
+          "Reversal"
+        ]
+      },
+      {
+        "start_date": "1999-02-08",
+        "end_date": "2001-01-30",
+        "causal_order": [
+          "Entropy",
+          "Volume",
+          "Reversal",
+          "Momentum",
+          "Returns",
+          "Liquidity",
+          "Volatility"
+        ]
+      },
+      {
+        "start_date": "1999-08-09",
+        "end_date": "2001-07-31",
+        "causal_order": [
+          "Entropy",
+          "Volume",
+          "Returns",
+          "Volatility",
+          "Momentum",
+          "Liquidity",
+          "Reversal"
+        ]
+      },
+      {
+        "start_date": "2000-02-07",
+        "end_date": "2002-02-05",
+        "causal_order": [
+          "Entropy",
+          "Volatility",
+          "Reversal",
+          "Momentum",
+          "Liquidity",
+          "Volume",
+          "Returns"
+        ]
+      },
+      {
+        "start_date": "2000-08-07",
+        "end_date": "2002-08-06",
+        "causal_order": [
+          "Liquidity",
+          "Volatility",
+          "Volume",
+          "Entropy",
+          "Reversal",
+          "Returns",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2001-02-06",
+        "end_date": "2003-02-05",
+        "causal_order": [
+          "Volatility",
+          "Reversal",
+          "Entropy",
+          "Liquidity",
+          "Momentum",
+          "Volume",
+          "Returns"
+        ]
+      },
+      {
+        "start_date": "2001-08-07",
+        "end_date": "2003-08-06",
+        "causal_order": [
+          "Returns",
+          "Volume",
+          "Momentum",
+          "Volatility",
+          "Entropy",
+          "Reversal",
+          "Liquidity"
+        ]
+      },
+      {
+        "start_date": "2002-02-12",
+        "end_date": "2004-02-05",
+        "causal_order": [
+          "Volume",
+          "Momentum",
+          "Volatility",
+          "Liquidity",
+          "Reversal",
+          "Returns",
+          "Entropy"
+        ]
+      },
+      {
+        "start_date": "2002-08-13",
+        "end_date": "2004-08-06",
+        "causal_order": [
+          "Momentum",
+          "Volume",
+          "Volatility",
+          "Returns",
+          "Reversal",
+          "Entropy",
+          "Liquidity"
+        ]
+      },
+      {
+        "start_date": "2003-02-12",
+        "end_date": "2005-02-04",
+        "causal_order": [
+          "Entropy",
+          "Liquidity",
+          "Returns",
+          "Reversal",
+          "Volume",
+          "Momentum",
+          "Volatility"
+        ]
+      },
+      {
+        "start_date": "2003-08-13",
+        "end_date": "2005-08-05",
+        "causal_order": [
+          "Entropy",
+          "Returns",
+          "Reversal",
+          "Volume",
+          "Momentum",
+          "Volatility",
+          "Liquidity"
+        ]
+      },
+      {
+        "start_date": "2004-02-12",
+        "end_date": "2006-02-06",
+        "causal_order": [
+          "Returns",
+          "Momentum",
+          "Volatility",
+          "Liquidity",
+          "Entropy",
+          "Reversal",
+          "Volume"
+        ]
+      },
+      {
+        "start_date": "2004-08-13",
+        "end_date": "2006-08-07",
+        "causal_order": [
+          "Entropy",
+          "Liquidity",
+          "Returns",
+          "Volume",
+          "Volatility",
+          "Reversal",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2005-02-11",
+        "end_date": "2007-02-07",
+        "causal_order": [
+          "Returns",
+          "Reversal",
+          "Volatility",
+          "Entropy",
+          "Liquidity",
+          "Volume",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2005-08-12",
+        "end_date": "2007-08-08",
+        "causal_order": [
+          "Returns",
+          "Liquidity",
+          "Reversal",
+          "Volatility",
+          "Entropy",
+          "Volume",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2006-02-13",
+        "end_date": "2008-02-07",
+        "causal_order": [
+          "Entropy",
+          "Reversal",
+          "Returns",
+          "Volume",
+          "Volatility",
+          "Liquidity",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2006-08-14",
+        "end_date": "2008-08-07",
+        "causal_order": [
+          "Reversal",
+          "Momentum",
+          "Liquidity",
+          "Entropy",
+          "Volatility",
+          "Returns",
+          "Volume"
+        ]
+      },
+      {
+        "start_date": "2007-02-14",
+        "end_date": "2009-02-06",
+        "causal_order": [
+          "Reversal",
+          "Returns",
+          "Volatility",
+          "Volume",
+          "Liquidity",
+          "Entropy",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2007-08-15",
+        "end_date": "2009-08-07",
+        "causal_order": [
+          "Volatility",
+          "Liquidity",
+          "Entropy",
+          "Reversal",
+          "Volume",
+          "Returns",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2008-02-14",
+        "end_date": "2010-02-08",
+        "causal_order": [
+          "Reversal",
+          "Returns",
+          "Volatility",
+          "Liquidity",
+          "Entropy",
+          "Momentum",
+          "Volume"
+        ]
+      },
+      {
+        "start_date": "2008-08-14",
+        "end_date": "2010-08-09",
+        "causal_order": [
+          "Reversal",
+          "Volatility",
+          "Volume",
+          "Entropy",
+          "Returns",
+          "Momentum",
+          "Liquidity"
+        ]
+      },
+      {
+        "start_date": "2009-02-13",
+        "end_date": "2011-02-07",
+        "causal_order": [
+          "Momentum",
+          "Volume",
+          "Returns",
+          "Volatility",
+          "Entropy",
+          "Reversal",
+          "Liquidity"
+        ]
+      },
+      {
+        "start_date": "2009-08-14",
+        "end_date": "2011-08-08",
+        "causal_order": [
+          "Momentum",
+          "Liquidity",
+          "Returns",
+          "Reversal",
+          "Volume",
+          "Entropy",
+          "Volatility"
+        ]
+      },
+      {
+        "start_date": "2010-02-16",
+        "end_date": "2012-02-07",
+        "causal_order": [
+          "Returns",
+          "Reversal",
+          "Liquidity",
+          "Volatility",
+          "Volume",
+          "Momentum",
+          "Entropy"
+        ]
+      },
+      {
+        "start_date": "2010-08-16",
+        "end_date": "2012-08-07",
+        "causal_order": [
+          "Liquidity",
+          "Returns",
+          "Reversal",
+          "Volatility",
+          "Entropy",
+          "Volume",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2011-02-14",
+        "end_date": "2013-02-08",
+        "causal_order": [
+          "Liquidity",
+          "Returns",
+          "Volatility",
+          "Reversal",
+          "Entropy",
+          "Volume",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2011-08-15",
+        "end_date": "2013-08-09",
+        "causal_order": [
+          "Liquidity",
+          "Returns",
+          "Volatility",
+          "Volume",
+          "Momentum",
+          "Entropy",
+          "Reversal"
+        ]
+      },
+      {
+        "start_date": "2012-02-14",
+        "end_date": "2014-02-10",
+        "causal_order": [
+          "Liquidity",
+          "Reversal",
+          "Volatility",
+          "Momentum",
+          "Volume",
+          "Entropy",
+          "Returns"
+        ]
+      },
+      {
+        "start_date": "2012-08-14",
+        "end_date": "2014-08-11",
+        "causal_order": [
+          "Volume",
+          "Returns",
+          "Momentum",
+          "Entropy",
+          "Volatility",
+          "Reversal",
+          "Liquidity"
+        ]
+      },
+      {
+        "start_date": "2013-02-15",
+        "end_date": "2015-02-10",
+        "causal_order": [
+          "Volume",
+          "Entropy",
+          "Liquidity",
+          "Returns",
+          "Volatility",
+          "Reversal",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2013-08-16",
+        "end_date": "2015-08-11",
+        "causal_order": [
+          "Volume",
+          "Entropy",
+          "Returns",
+          "Volatility",
+          "Liquidity",
+          "Reversal",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2014-02-18",
+        "end_date": "2016-02-10",
+        "causal_order": [
+          "Entropy",
+          "Reversal",
+          "Momentum",
+          "Liquidity",
+          "Volume",
+          "Returns",
+          "Volatility"
+        ]
+      },
+      {
+        "start_date": "2014-08-18",
+        "end_date": "2016-08-10",
+        "causal_order": [
+          "Entropy",
+          "Liquidity",
+          "Reversal",
+          "Volume",
+          "Returns",
+          "Momentum",
+          "Volatility"
+        ]
+      },
+      {
+        "start_date": "2015-02-18",
+        "end_date": "2017-02-09",
+        "causal_order": [
+          "Entropy",
+          "Liquidity",
+          "Reversal",
+          "Returns",
+          "Momentum",
+          "Volatility",
+          "Volume"
+        ]
+      },
+      {
+        "start_date": "2015-08-18",
+        "end_date": "2017-08-10",
+        "causal_order": [
+          "Entropy",
+          "Liquidity",
+          "Reversal",
+          "Returns",
+          "Volume",
+          "Momentum",
+          "Volatility"
+        ]
+      },
+      {
+        "start_date": "2016-02-18",
+        "end_date": "2018-02-09",
+        "causal_order": [
+          "Returns",
+          "Entropy",
+          "Liquidity",
+          "Volatility",
+          "Momentum",
+          "Reversal",
+          "Volume"
+        ]
+      },
+      {
+        "start_date": "2016-08-17",
+        "end_date": "2018-08-10",
+        "causal_order": [
+          "Entropy",
+          "Liquidity",
+          "Momentum",
+          "Reversal",
+          "Volatility",
+          "Returns",
+          "Volume"
+        ]
+      },
+      {
+        "start_date": "2017-02-16",
+        "end_date": "2019-02-12",
+        "causal_order": [
+          "Entropy",
+          "Reversal",
+          "Momentum",
+          "Volume",
+          "Returns",
+          "Volatility",
+          "Liquidity"
+        ]
+      },
+      {
+        "start_date": "2017-08-17",
+        "end_date": "2019-08-13",
+        "causal_order": [
+          "Entropy",
+          "Reversal",
+          "Liquidity",
+          "Momentum",
+          "Volatility",
+          "Volume",
+          "Returns"
+        ]
+      },
+      {
+        "start_date": "2018-02-16",
+        "end_date": "2020-02-12",
+        "causal_order": [
+          "Liquidity",
+          "Entropy",
+          "Reversal",
+          "Momentum",
+          "Volatility",
+          "Returns",
+          "Volume"
+        ]
+      },
+      {
+        "start_date": "2018-08-17",
+        "end_date": "2020-08-12",
+        "causal_order": [
+          "Volatility",
+          "Reversal",
+          "Volume",
+          "Returns",
+          "Entropy",
+          "Liquidity",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2019-02-20",
+        "end_date": "2021-02-11",
+        "causal_order": [
+          "Reversal",
+          "Volatility",
+          "Volume",
+          "Returns",
+          "Entropy",
+          "Liquidity",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2019-08-20",
+        "end_date": "2021-08-12",
+        "causal_order": [
+          "Reversal",
+          "Volatility",
+          "Entropy",
+          "Volume",
+          "Returns",
+          "Liquidity",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2020-02-20",
+        "end_date": "2022-02-10",
+        "causal_order": [
+          "Reversal",
+          "Volatility",
+          "Volume",
+          "Returns",
+          "Entropy",
+          "Liquidity",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2020-08-19",
+        "end_date": "2022-08-12",
+        "causal_order": [
+          "Volume",
+          "Reversal",
+          "Entropy",
+          "Returns",
+          "Volatility",
+          "Momentum",
+          "Liquidity"
+        ]
+      },
+      {
+        "start_date": "2021-02-19",
+        "end_date": "2023-02-13",
+        "causal_order": [
+          "Volume",
+          "Entropy",
+          "Momentum",
+          "Returns",
+          "Liquidity",
+          "Reversal",
+          "Volatility"
+        ]
+      },
+      {
+        "start_date": "2021-08-19",
+        "end_date": "2023-08-15",
+        "causal_order": [
+          "Liquidity",
+          "Reversal",
+          "Entropy",
+          "Volume",
+          "Returns",
+          "Volatility",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2022-02-17",
+        "end_date": "2024-02-14",
+        "causal_order": [
+          "Returns",
+          "Reversal",
+          "Volume",
+          "Entropy",
+          "Liquidity",
+          "Volatility",
+          "Momentum"
+        ]
+      },
+      {
+        "start_date": "2022-08-19",
+        "end_date": "2024-08-15",
+        "causal_order": [
+          "Liquidity",
+          "Reversal",
+          "Momentum",
+          "Volatility",
+          "Volume",
+          "Entropy",
+          "Returns"
+        ]
+      },
+      {
+        "start_date": "2023-02-21",
+        "end_date": "2025-02-18",
+        "causal_order": [
+          "Momentum",
+          "Liquidity",
+          "Entropy",
+          "Volatility",
+          "Returns",
+          "Reversal",
+          "Volume"
+        ]
+      },
+      {
+        "start_date": "2023-08-22",
+        "end_date": "2025-08-19",
+        "causal_order": [
+          "Volatility",
+          "Entropy",
+          "Liquidity",
+          "Reversal",
+          "Momentum",
+          "Volume",
+          "Returns"
+        ]
+      }
+    ]
+  },
+  "e2_pe": {
+    "n_obs": 7647,
+    "labels": [
+      "Returns",
+      "Entropy",
+      "Momentum",
+      "Reversal",
+      "Volatility",
+      "Liquidity",
+      "Volume",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "Liquidity",
+      "Reversal",
+      "Entropy",
+      "Volatility",
+      "Volume",
+      "Returns",
+      "Momentum",
+      "FutureReturn"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Entropy": true,
+      "Momentum": true,
+      "Reversal": true,
+      "Volatility": true,
+      "Liquidity": true,
+      "Volume": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.41192183198020854,
+        0.0,
+        0.0,
+        -0.052315560221109475,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.054067640867049044,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.10723425943630874,
+        -0.5145511678859662,
+        0.1495336875765772,
+        -0.04904317490815757,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.050904484794862995,
+        0.0,
+        -0.08602907131823727,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.2666232612719062,
+        0.07572801650591035,
+        -0.3204917713173878,
+        0.0,
+        0.0
+      ],
+      [
+        -0.06363912277564168,
+        0.0,
+        0.0,
+        -0.04368867918715879,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.034,
+        0.058,
+        0.62,
+        0.19,
+        0.004,
+        0.408,
+        0.058
+      ],
+      [
+        0.038,
+        0.0,
+        0.102,
+        0.108,
+        0.194,
+        0.686,
+        0.002,
+        0.002
+      ],
+      [
+        0.052,
+        0.256,
+        0.0,
+        0.88,
+        0.548,
+        1.0,
+        0.36,
+        0.022
+      ],
+      [
+        0.38,
+        0.124,
+        0.118,
+        0.0,
+        0.11,
+        0.352,
+        0.002,
+        0.034
+      ],
+      [
+        0.276,
+        0.174,
+        0.452,
+        0.614,
+        0.0,
+        0.778,
+        0.01,
+        0.038
+      ],
+      [
+        0.0,
+        0.002,
+        0.0,
+        0.002,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.578,
+        0.052,
+        0.438,
+        0.998,
+        0.814,
+        1.0,
+        0.0,
+        0.014
+      ],
+      [
+        0.732,
+        0.006,
+        0.038,
+        0.63,
+        0.1,
+        0.002,
+        0.002,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        0.0012615167647431105,
+        0.00560383978969632,
+        0.2589980252107486,
+        0.009153585336737956,
+        -4.186697219934854e-05,
+        -0.023506477010991754,
+        -0.002797829535545351
+      ],
+      [
+        0.0013477135124350657,
+        0.0,
+        -0.002305185378759527,
+        0.0051005508309813,
+        -0.009522879179434379,
+        -0.06967035793421819,
+        -7.691006594386186e-05,
+        7.891786906112485e-05
+      ],
+      [
+        0.002813461273957945,
+        -0.003930433212037996,
+        0.0,
+        0.10705078520450904,
+        -0.2849271994409863,
+        0.20114541497063945,
+        -0.01993685084167813,
+        2.757461833465294e-05
+      ],
+      [
+        0.16369304685747693,
+        0.004985314187808866,
+        0.017745989278773838,
+        0.0,
+        0.00868681097165395,
+        0.014962232467606149,
+        -0.00044383720187686097,
+        -0.0015610072013041462
+      ],
+      [
+        0.010106206359410156,
+        -0.002793372378793517,
+        -0.22356834852691296,
+        -0.027824298785969592,
+        0.0,
+        -0.026556333235682458,
+        -9.074488391162792e-05,
+        -0.00039004566679627135
+      ],
+      [
+        0.0,
+        -9.764933920827902e-05,
+        0.0,
+        4.3166585461339944e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.03658021040331599,
+        -0.0015388466268297836,
+        -0.029304794596694897,
+        -0.24734309390591896,
+        0.056490383081388075,
+        -0.3388220987891765,
+        0.0,
+        -0.0004213249050690792
+      ],
+      [
+        -0.05764167730400509,
+        0.0001972285653278633,
+        0.0012452248097057559,
+        -0.04044792867454313,
+        0.0037239079816003533,
+        5.2877621800555735e-05,
+        5.147159990856329e-05,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Liquidity",
+        "target": "Momentum",
+        "mean_effect": 0.20114541497063945,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volume",
+        "mean_effect": -0.3388220987891765,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.24734309390591896,
+        "edge_prob": 0.998
+      },
+      {
+        "source": "Reversal",
+        "target": "Momentum",
+        "mean_effect": 0.10705078520450904,
+        "edge_prob": 0.88
+      },
+      {
+        "source": "Volatility",
+        "target": "Volume",
+        "mean_effect": 0.056490383081388075,
+        "edge_prob": 0.814
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volatility",
+        "mean_effect": -0.026556333235682458,
+        "edge_prob": 0.778
+      },
+      {
+        "source": "Returns",
+        "target": "FutureReturn",
+        "mean_effect": -0.05764167730400509,
+        "edge_prob": 0.732
+      },
+      {
+        "source": "Liquidity",
+        "target": "Entropy",
+        "mean_effect": -0.06967035793421819,
+        "edge_prob": 0.686
+      },
+      {
+        "source": "Reversal",
+        "target": "FutureReturn",
+        "mean_effect": -0.04044792867454313,
+        "edge_prob": 0.63
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.2589980252107486,
+        "edge_prob": 0.62
+      },
+      {
+        "source": "Reversal",
+        "target": "Volatility",
+        "mean_effect": -0.027824298785969592,
+        "edge_prob": 0.614
+      },
+      {
+        "source": "Returns",
+        "target": "Volume",
+        "mean_effect": -0.03658021040331599,
+        "edge_prob": 0.578
+      },
+      {
+        "source": "Volatility",
+        "target": "Momentum",
+        "mean_effect": -0.2849271994409863,
+        "edge_prob": 0.548
+      }
+    ],
+    "tie_rate_log_returns": 0.0003735059760956175,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Liquidity": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "ffd",
+        "d": 0.3,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 28,
+      "n_independent": 3,
+      "fraction_independent": 0.10714285714285714
+    }
+  },
+  "e2_wpe": {
+    "n_obs": 7647,
+    "labels": [
+      "Returns",
+      "Entropy",
+      "Momentum",
+      "Reversal",
+      "Volatility",
+      "Liquidity",
+      "Volume",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "Liquidity",
+      "Reversal",
+      "Volatility",
+      "Volume",
+      "Returns",
+      "Momentum",
+      "Entropy",
+      "FutureReturn"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Entropy": true,
+      "Momentum": true,
+      "Reversal": true,
+      "Volatility": true,
+      "Liquidity": true,
+      "Volume": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.41192183198020854,
+        0.0,
+        0.0,
+        -0.052315560221109475,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.11034558504069794,
+        0.03974607705872053,
+        -0.05189947781578798,
+        0.0,
+        -0.05536368602680665,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.10723425943630874,
+        -0.5145511678859662,
+        0.1495336875765772,
+        -0.04904317490815757,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.050904484794862995,
+        0.0,
+        -0.08602907131823727,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.2666232612719062,
+        0.07572801650591035,
+        -0.3204917713173878,
+        0.0,
+        0.0
+      ],
+      [
+        -0.06363912277564168,
+        0.0,
+        0.0,
+        -0.04368867918715879,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.0,
+        0.054,
+        0.634,
+        0.176,
+        0.002,
+        0.384,
+        0.07
+      ],
+      [
+        0.01,
+        0.0,
+        0.75,
+        0.71,
+        0.496,
+        0.528,
+        0.41,
+        0.01
+      ],
+      [
+        0.054,
+        0.218,
+        0.0,
+        0.884,
+        0.55,
+        1.0,
+        0.358,
+        0.032
+      ],
+      [
+        0.366,
+        0.054,
+        0.114,
+        0.0,
+        0.106,
+        0.35,
+        0.002,
+        0.028
+      ],
+      [
+        0.284,
+        0.082,
+        0.45,
+        0.624,
+        0.0,
+        0.782,
+        0.01,
+        0.038
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.002,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.6,
+        0.444,
+        0.456,
+        0.998,
+        0.816,
+        1.0,
+        0.0,
+        0.018
+      ],
+      [
+        0.72,
+        0.004,
+        0.036,
+        0.642,
+        0.096,
+        0.002,
+        0.002,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        0.0,
+        0.005256317916721101,
+        0.2651931441144042,
+        0.008463213048620466,
+        -4.6847204136083526e-05,
+        -0.022003645743059987,
+        -0.003524997862097959
+      ],
+      [
+        -0.00018787410105675976,
+        0.0,
+        -0.08507945915126024,
+        0.03884635826759807,
+        -0.04031447843536395,
+        0.022392517730513463,
+        -0.022583517039072475,
+        0.0003043188221629667
+      ],
+      [
+        0.0028253502140312744,
+        -0.014609867612554582,
+        0.0,
+        0.10796592326567415,
+        -0.2859331181899049,
+        0.20128734642431345,
+        -0.019997781887507386,
+        8.06308831226353e-05
+      ],
+      [
+        0.15790275253550584,
+        0.0026801432892096418,
+        0.01727527279597479,
+        0.0,
+        0.008392527986902945,
+        0.01490819590284667,
+        -0.0005705925265747401,
+        -0.001460671490772042
+      ],
+      [
+        0.01054100144223061,
+        -0.0013603914271679194,
+        -0.22258392310683034,
+        -0.027553824961845424,
+        0.0,
+        -0.026347589599487808,
+        -9.074488391162763e-05,
+        -0.00041319507532892673
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        4.3166585461339944e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.03809804319207888,
+        -0.019648753278424823,
+        -0.03127645596997314,
+        -0.24564829104670036,
+        0.05578916492490129,
+        -0.3379641810608852,
+        0.0,
+        -0.0005215573911337939
+      ],
+      [
+        -0.056555543813781556,
+        0.00015179099260102702,
+        0.001310962133540737,
+        -0.04108241860815021,
+        0.0035899817188660196,
+        5.2877621800555735e-05,
+        5.147159990856329e-05,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Liquidity",
+        "target": "Momentum",
+        "mean_effect": 0.20128734642431345,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volume",
+        "mean_effect": -0.3379641810608852,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.24564829104670036,
+        "edge_prob": 0.998
+      },
+      {
+        "source": "Reversal",
+        "target": "Momentum",
+        "mean_effect": 0.10796592326567415,
+        "edge_prob": 0.884
+      },
+      {
+        "source": "Volatility",
+        "target": "Volume",
+        "mean_effect": 0.05578916492490129,
+        "edge_prob": 0.816
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volatility",
+        "mean_effect": -0.026347589599487808,
+        "edge_prob": 0.782
+      },
+      {
+        "source": "Momentum",
+        "target": "Entropy",
+        "mean_effect": -0.08507945915126024,
+        "edge_prob": 0.75
+      },
+      {
+        "source": "Returns",
+        "target": "FutureReturn",
+        "mean_effect": -0.056555543813781556,
+        "edge_prob": 0.72
+      },
+      {
+        "source": "Reversal",
+        "target": "Entropy",
+        "mean_effect": 0.03884635826759807,
+        "edge_prob": 0.71
+      },
+      {
+        "source": "Reversal",
+        "target": "FutureReturn",
+        "mean_effect": -0.04108241860815021,
+        "edge_prob": 0.642
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.2651931441144042,
+        "edge_prob": 0.634
+      },
+      {
+        "source": "Reversal",
+        "target": "Volatility",
+        "mean_effect": -0.027553824961845424,
+        "edge_prob": 0.624
+      },
+      {
+        "source": "Returns",
+        "target": "Volume",
+        "mean_effect": -0.03809804319207888,
+        "edge_prob": 0.6
+      },
+      {
+        "source": "Volatility",
+        "target": "Momentum",
+        "mean_effect": -0.2859331181899049,
+        "edge_prob": 0.55
+      },
+      {
+        "source": "Liquidity",
+        "target": "Entropy",
+        "mean_effect": 0.022392517730513463,
+        "edge_prob": 0.528
+      }
+    ],
+    "tie_rate_log_returns": 0.0003735059760956175,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Liquidity": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "ffd",
+        "d": 0.3,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 28,
+      "n_independent": 2,
+      "fraction_independent": 0.07142857142857142
+    }
+  },
+  "e3_QQQ_pe": {
+    "n_obs": 6492,
+    "labels": [
+      "Returns",
+      "Entropy",
+      "Momentum",
+      "Reversal",
+      "Volatility",
+      "Liquidity",
+      "Volume",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "Entropy",
+      "Momentum",
+      "Liquidity",
+      "Reversal",
+      "Returns",
+      "FutureReturn",
+      "Volume",
+      "Volatility"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Entropy": true,
+      "Momentum": true,
+      "Reversal": true,
+      "Volatility": true,
+      "Liquidity": true,
+      "Volume": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.4302652296732074,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.04417672558272297,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.149680060527554,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.03215234245648166,
+        -0.17609430771029402,
+        0.0,
+        0.0,
+        0.5998034716979986,
+        0.1429308098707233,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.4756015386917805,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.37405460338536445,
+        -0.14790167404082669,
+        0.0,
+        -0.09652762308150895,
+        0.0,
+        0.0
+      ],
+      [
+        -0.03625484034084399,
+        0.0,
+        0.0,
+        -0.04455305299808254,
+        0.0,
+        -0.0286627087996985,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.002,
+        0.072,
+        0.842,
+        0.036,
+        0.01,
+        0.048,
+        0.176
+      ],
+      [
+        0.0,
+        0.0,
+        0.15,
+        0.02,
+        0.064,
+        0.122,
+        0.018,
+        0.0
+      ],
+      [
+        0.032,
+        0.528,
+        0.0,
+        0.336,
+        0.022,
+        0.124,
+        0.012,
+        0.07
+      ],
+      [
+        0.158,
+        0.084,
+        0.612,
+        0.0,
+        0.144,
+        0.33,
+        0.232,
+        0.414
+      ],
+      [
+        0.116,
+        0.578,
+        0.978,
+        0.27,
+        0.0,
+        0.998,
+        0.59,
+        0.068
+      ],
+      [
+        0.004,
+        0.24,
+        0.876,
+        0.162,
+        0.002,
+        0.0,
+        0.016,
+        0.078
+      ],
+      [
+        0.004,
+        0.408,
+        0.988,
+        0.768,
+        0.41,
+        0.884,
+        0.0,
+        0.038
+      ],
+      [
+        0.358,
+        0.0,
+        0.062,
+        0.366,
+        0.008,
+        0.206,
+        0.002,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        7.794208589847679e-05,
+        0.005032338522209697,
+        0.36163386584708845,
+        0.002020798273606202,
+        -0.0005215353412864496,
+        -0.0032605470236798263,
+        -0.008609846439904754
+      ],
+      [
+        0.0,
+        0.0,
+        0.011861898437838452,
+        0.00035775361131989216,
+        0.006676097864632859,
+        -0.0015665041441664555,
+        -0.00025052975719856685,
+        0.0
+      ],
+      [
+        0.0023938931717316057,
+        0.03471623478376884,
+        0.0,
+        0.042614615799286236,
+        -0.008278416468066813,
+        -0.07323604505615351,
+        -0.0027416578022026487,
+        0.0017444495964612941
+      ],
+      [
+        0.06693543119265007,
+        0.0011078522407943292,
+        0.08614446101129049,
+        0.0,
+        0.013159418606457004,
+        -0.02198292990428896,
+        -0.03673325459640718,
+        -0.024874914892232453
+      ],
+      [
+        0.0030642111748634057,
+        0.027315838634664445,
+        -0.2102913512588612,
+        -0.002903387554214642,
+        0.0,
+        0.5817330663315631,
+        0.08026713419972316,
+        -0.0014889536195931677
+      ],
+      [
+        0.00011523482614110071,
+        -0.0036370740085852633,
+        -0.41521170123819623,
+        0.0015105808554500327,
+        0.0015032759437098985,
+        0.0,
+        -0.0006128011114379968,
+        -0.003204112038206967
+      ],
+      [
+        -0.00019215453328948694,
+        -0.018671254971626968,
+        -0.34333974598891326,
+        -0.11541125921362232,
+        0.11256753768630134,
+        -0.15187946569054633,
+        0.0,
+        -0.0013398352317117465
+      ],
+      [
+        -0.022920492110508808,
+        0.0,
+        0.0006771589068828223,
+        -0.020650478526102044,
+        0.00025662850476454967,
+        -0.010778574926730448,
+        -7.244600924293894e-05,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Liquidity",
+        "target": "Volatility",
+        "mean_effect": 0.5817330663315631,
+        "edge_prob": 0.998
+      },
+      {
+        "source": "Momentum",
+        "target": "Volume",
+        "mean_effect": -0.34333974598891326,
+        "edge_prob": 0.988
+      },
+      {
+        "source": "Momentum",
+        "target": "Volatility",
+        "mean_effect": -0.2102913512588612,
+        "edge_prob": 0.978
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volume",
+        "mean_effect": -0.15187946569054633,
+        "edge_prob": 0.884
+      },
+      {
+        "source": "Momentum",
+        "target": "Liquidity",
+        "mean_effect": -0.41521170123819623,
+        "edge_prob": 0.876
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.36163386584708845,
+        "edge_prob": 0.842
+      },
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.11541125921362232,
+        "edge_prob": 0.768
+      },
+      {
+        "source": "Momentum",
+        "target": "Reversal",
+        "mean_effect": 0.08614446101129049,
+        "edge_prob": 0.612
+      },
+      {
+        "source": "Volume",
+        "target": "Volatility",
+        "mean_effect": 0.08026713419972316,
+        "edge_prob": 0.59
+      },
+      {
+        "source": "Entropy",
+        "target": "Volatility",
+        "mean_effect": 0.027315838634664445,
+        "edge_prob": 0.578
+      },
+      {
+        "source": "Entropy",
+        "target": "Momentum",
+        "mean_effect": 0.03471623478376884,
+        "edge_prob": 0.528
+      }
+    ],
+    "tie_rate_log_returns": 0.0006163328197226503,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Liquidity": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 28,
+      "n_independent": 4,
+      "fraction_independent": 0.14285714285714285
+    }
+  },
+  "e3_QQQ_wpe": {
+    "n_obs": 6492,
+    "labels": [
+      "Returns",
+      "Entropy",
+      "Momentum",
+      "Reversal",
+      "Volatility",
+      "Liquidity",
+      "Volume",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "Momentum",
+      "Liquidity",
+      "Reversal",
+      "Returns",
+      "FutureReturn",
+      "Volume",
+      "Entropy",
+      "Volatility"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Entropy": true,
+      "Momentum": true,
+      "Reversal": true,
+      "Volatility": true,
+      "Liquidity": true,
+      "Volume": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.4302652296732074,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.04531418494416111,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.149680060527554,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.17503048599878712,
+        0.0,
+        0.0,
+        0.5995643509916326,
+        0.14223755118079207,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.4756015386917805,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.37405460338536445,
+        -0.14790167404082669,
+        0.0,
+        -0.09652762308150895,
+        0.0,
+        0.0
+      ],
+      [
+        -0.03625484034084399,
+        0.0,
+        0.0,
+        -0.04455305299808254,
+        0.0,
+        -0.0286627087996985,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.002,
+        0.088,
+        0.85,
+        0.036,
+        0.008,
+        0.064,
+        0.146
+      ],
+      [
+        0.028,
+        0.0,
+        0.21,
+        0.08,
+        0.166,
+        0.376,
+        0.12,
+        0.002
+      ],
+      [
+        0.016,
+        0.062,
+        0.0,
+        0.318,
+        0.024,
+        0.128,
+        0.012,
+        0.04
+      ],
+      [
+        0.15,
+        0.078,
+        0.628,
+        0.0,
+        0.15,
+        0.338,
+        0.256,
+        0.362
+      ],
+      [
+        0.114,
+        0.242,
+        0.976,
+        0.24,
+        0.0,
+        0.998,
+        0.578,
+        0.06
+      ],
+      [
+        0.0,
+        0.204,
+        0.872,
+        0.142,
+        0.002,
+        0.0,
+        0.012,
+        0.078
+      ],
+      [
+        0.004,
+        0.294,
+        0.988,
+        0.744,
+        0.422,
+        0.89,
+        0.0,
+        0.03
+      ],
+      [
+        0.374,
+        0.004,
+        0.08,
+        0.4,
+        0.01,
+        0.23,
+        0.002,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        -6.756887229214272e-05,
+        0.006312090224643885,
+        0.36512190428670194,
+        0.0020078537012793206,
+        -0.0003145253671025065,
+        -0.004127992481785965,
+        -0.007333083457718764
+      ],
+      [
+        -0.0010342442140755163,
+        0.0,
+        0.005207350895438653,
+        0.002918266775732354,
+        0.009626717593784428,
+        0.02746859272596455,
+        0.006503759082889251,
+        6.481465534321896e-05
+      ],
+      [
+        0.0013646744575110544,
+        0.0027759730548955323,
+        0.0,
+        0.03983990352180171,
+        -0.00900044844473474,
+        -0.07530711372400384,
+        -0.0027460795359120676,
+        0.0005018017426466798
+      ],
+      [
+        0.06347332906976086,
+        0.0024082523910769374,
+        0.08753462605659099,
+        0.0,
+        0.013631224400834627,
+        -0.02386116662766386,
+        -0.04010735237533012,
+        -0.022069332741027993
+      ],
+      [
+        0.0032061617568097792,
+        0.008423501115688957,
+        -0.20963972208433893,
+        -0.003519781864468718,
+        0.0,
+        0.5813880250496952,
+        0.07769563405194542,
+        -0.0012202181227030536
+      ],
+      [
+        0.0,
+        0.01014528461160216,
+        -0.41268158010609374,
+        0.0017524236097252292,
+        0.0015033609459265314,
+        0.0,
+        -0.0003919537996224401,
+        -0.0028230216181619468
+      ],
+      [
+        -6.812159106052334e-05,
+        0.012999658515324294,
+        -0.34472116379168116,
+        -0.11243671163558519,
+        0.11467907937246807,
+        -0.15405817310366757,
+        0.0,
+        -0.0010693168791049543
+      ],
+      [
+        -0.023931891297178324,
+        -0.00015505768407469633,
+        0.001448884162571182,
+        -0.022946100604330985,
+        0.00016973373147686322,
+        -0.011896830605789268,
+        -7.244600924293894e-05,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Liquidity",
+        "target": "Volatility",
+        "mean_effect": 0.5813880250496952,
+        "edge_prob": 0.998
+      },
+      {
+        "source": "Momentum",
+        "target": "Volume",
+        "mean_effect": -0.34472116379168116,
+        "edge_prob": 0.988
+      },
+      {
+        "source": "Momentum",
+        "target": "Volatility",
+        "mean_effect": -0.20963972208433893,
+        "edge_prob": 0.976
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volume",
+        "mean_effect": -0.15405817310366757,
+        "edge_prob": 0.89
+      },
+      {
+        "source": "Momentum",
+        "target": "Liquidity",
+        "mean_effect": -0.41268158010609374,
+        "edge_prob": 0.872
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.36512190428670194,
+        "edge_prob": 0.85
+      },
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.11243671163558519,
+        "edge_prob": 0.744
+      },
+      {
+        "source": "Momentum",
+        "target": "Reversal",
+        "mean_effect": 0.08753462605659099,
+        "edge_prob": 0.628
+      },
+      {
+        "source": "Volume",
+        "target": "Volatility",
+        "mean_effect": 0.07769563405194542,
+        "edge_prob": 0.578
+      }
+    ],
+    "tie_rate_log_returns": 0.0006163328197226503,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Liquidity": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 28,
+      "n_independent": 3,
+      "fraction_independent": 0.10714285714285714
+    }
+  },
+  "e3_IWM_pe": {
+    "n_obs": 6184,
+    "labels": [
+      "Returns",
+      "Entropy",
+      "Momentum",
+      "Reversal",
+      "Volatility",
+      "Liquidity",
+      "Volume",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "Entropy",
+      "FutureReturn",
+      "Volatility",
+      "Reversal",
+      "Volume",
+      "Returns",
+      "Liquidity",
+      "Momentum"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Entropy": true,
+      "Momentum": true,
+      "Reversal": true,
+      "Volatility": true,
+      "Liquidity": true,
+      "Volume": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.4303200270715131,
+        0.0,
+        0.0,
+        0.0,
+        -0.048140166996101054
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.05647022185049331,
+        0.0,
+        0.12127548115170612,
+        -0.5193983034756441,
+        -0.08249329937673369,
+        0.12829248589968453,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.03789270422815639,
+        0.0,
+        0.0,
+        -0.04190557452623878
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.05866896476384095,
+        0.08829550291131176,
+        0.0,
+        -0.38685384603742495,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.0875870921667238,
+        0.1722193472517668,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.014,
+        0.0,
+        0.72,
+        0.028,
+        0.0,
+        0.0,
+        0.244
+      ],
+      [
+        0.006,
+        0.0,
+        0.086,
+        0.032,
+        0.386,
+        0.062,
+        0.076,
+        0.002
+      ],
+      [
+        0.026,
+        0.684,
+        0.0,
+        0.952,
+        1.0,
+        0.952,
+        0.83,
+        0.03
+      ],
+      [
+        0.28,
+        0.06,
+        0.046,
+        0.0,
+        0.302,
+        0.266,
+        0.254,
+        0.202
+      ],
+      [
+        0.036,
+        0.174,
+        0.0,
+        0.264,
+        0.0,
+        0.168,
+        0.002,
+        0.022
+      ],
+      [
+        0.004,
+        0.018,
+        0.046,
+        0.546,
+        0.758,
+        0.0,
+        0.766,
+        0.004
+      ],
+      [
+        0.046,
+        0.294,
+        0.076,
+        0.73,
+        0.996,
+        0.234,
+        0.0,
+        0.008
+      ],
+      [
+        0.506,
+        0.012,
+        0.01,
+        0.206,
+        0.112,
+        0.018,
+        0.0,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        0.0005181961738513389,
+        0.0,
+        0.3112595748159994,
+        0.0007940019387265557,
+        0.0,
+        0.0,
+        -0.013951380302709749
+      ],
+      [
+        0.00024512864501392644,
+        0.0,
+        -0.007669303892284037,
+        0.0008440141174721736,
+        -0.026862557287415805,
+        -0.0035689693558038503,
+        0.00494230302149746,
+        9.117594403309465e-05
+      ],
+      [
+        0.0014493073364225128,
+        -0.04737173028067655,
+        0.0,
+        0.11429900060869438,
+        -0.5162022830090475,
+        -0.1448124282349137,
+        0.10652750129955757,
+        -0.0009720881803989529
+      ],
+      [
+        0.12088914588042135,
+        0.0013756885672253996,
+        0.006667740533674714,
+        0.0,
+        -0.00838626096737226,
+        -0.013071106674506075,
+        -0.025774537463099427,
+        -0.010648250899002567
+      ],
+      [
+        0.0011378591200393526,
+        -0.0098468011493086,
+        0.0,
+        -0.018403981687700407,
+        0.0,
+        0.02877363923094398,
+        0.0001222500060128343,
+        0.000978534735759078
+      ],
+      [
+        -0.00019361763276249161,
+        0.00029464918433368554,
+        -0.0027327454327797655,
+        -0.030630562050833393,
+        0.06678193845037714,
+        0.0,
+        -0.2874795638548287,
+        -0.00016609313689301602
+      ],
+      [
+        -0.0017956184432502368,
+        0.00931025229712223,
+        0.0009611368658955252,
+        -0.07117292153866189,
+        0.18438544765045703,
+        -0.3700051304542561,
+        0.0,
+        3.521448807065425e-06
+      ],
+      [
+        -0.037677567619103534,
+        0.00043286620080699783,
+        -0.0003530654996845771,
+        -0.008534837437859879,
+        0.003967999914025963,
+        -0.0005083444812115346,
+        0.0,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Volatility",
+        "target": "Momentum",
+        "mean_effect": -0.5162022830090475,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Volatility",
+        "target": "Volume",
+        "mean_effect": 0.18438544765045703,
+        "edge_prob": 0.996
+      },
+      {
+        "source": "Reversal",
+        "target": "Momentum",
+        "mean_effect": 0.11429900060869438,
+        "edge_prob": 0.952
+      },
+      {
+        "source": "Liquidity",
+        "target": "Momentum",
+        "mean_effect": -0.1448124282349137,
+        "edge_prob": 0.952
+      },
+      {
+        "source": "Volume",
+        "target": "Momentum",
+        "mean_effect": 0.10652750129955757,
+        "edge_prob": 0.83
+      },
+      {
+        "source": "Volume",
+        "target": "Liquidity",
+        "mean_effect": -0.2874795638548287,
+        "edge_prob": 0.766
+      },
+      {
+        "source": "Volatility",
+        "target": "Liquidity",
+        "mean_effect": 0.06678193845037714,
+        "edge_prob": 0.758
+      },
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.07117292153866189,
+        "edge_prob": 0.73
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.3112595748159994,
+        "edge_prob": 0.72
+      },
+      {
+        "source": "Entropy",
+        "target": "Momentum",
+        "mean_effect": -0.04737173028067655,
+        "edge_prob": 0.684
+      },
+      {
+        "source": "Reversal",
+        "target": "Liquidity",
+        "mean_effect": -0.030630562050833393,
+        "edge_prob": 0.546
+      },
+      {
+        "source": "Returns",
+        "target": "FutureReturn",
+        "mean_effect": -0.037677567619103534,
+        "edge_prob": 0.506
+      }
+    ],
+    "tie_rate_log_returns": 0.0,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Liquidity": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 28,
+      "n_independent": 4,
+      "fraction_independent": 0.14285714285714285
+    }
+  },
+  "e3_IWM_wpe": {
+    "n_obs": 6184,
+    "labels": [
+      "Returns",
+      "Entropy",
+      "Momentum",
+      "Reversal",
+      "Volatility",
+      "Liquidity",
+      "Volume",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "FutureReturn",
+      "Volatility",
+      "Reversal",
+      "Volume",
+      "Returns",
+      "Liquidity",
+      "Entropy",
+      "Momentum"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Entropy": true,
+      "Momentum": true,
+      "Reversal": true,
+      "Volatility": true,
+      "Liquidity": true,
+      "Volume": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.4303200270715131,
+        0.0,
+        0.0,
+        0.0,
+        -0.048140166996101054
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.08306774037755887,
+        0.0,
+        0.12316443692734057,
+        -0.5158249811379724,
+        -0.08020052111969295,
+        0.12607980740498742,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.03789270422815639,
+        0.0,
+        0.0,
+        -0.04190557452623878
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.05866896476384095,
+        0.08829550291131176,
+        0.0,
+        -0.38685384603742495,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.0875870921667238,
+        0.1722193472517668,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.002,
+        0.0,
+        0.72,
+        0.028,
+        0.0,
+        0.0,
+        0.242
+      ],
+      [
+        0.002,
+        0.0,
+        0.194,
+        0.31,
+        0.298,
+        0.442,
+        0.374,
+        0.046
+      ],
+      [
+        0.012,
+        0.754,
+        0.0,
+        0.976,
+        1.0,
+        0.948,
+        0.832,
+        0.024
+      ],
+      [
+        0.28,
+        0.046,
+        0.022,
+        0.0,
+        0.314,
+        0.268,
+        0.25,
+        0.202
+      ],
+      [
+        0.032,
+        0.03,
+        0.0,
+        0.268,
+        0.0,
+        0.168,
+        0.002,
+        0.024
+      ],
+      [
+        0.006,
+        0.02,
+        0.05,
+        0.542,
+        0.756,
+        0.0,
+        0.766,
+        0.004
+      ],
+      [
+        0.046,
+        0.094,
+        0.07,
+        0.734,
+        0.996,
+        0.234,
+        0.0,
+        0.01
+      ],
+      [
+        0.51,
+        0.0,
+        0.008,
+        0.204,
+        0.118,
+        0.018,
+        0.0,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        7.797985495987215e-05,
+        0.0,
+        0.31126159348180416,
+        0.0007857897418649987,
+        0.0,
+        0.0,
+        -0.013940780631207352
+      ],
+      [
+        7.496566669847094e-05,
+        0.0,
+        -0.020431525779444508,
+        0.015831548199673504,
+        0.003374197565140841,
+        0.019416812714723727,
+        -0.012722412589781216,
+        0.0016044687966034036
+      ],
+      [
+        0.0006159886273327049,
+        -0.06599068469005559,
+        0.0,
+        0.1185718590064647,
+        -0.5132395097665737,
+        -0.1421456209444235,
+        0.10534118428899066,
+        -0.0007829470262345965
+      ],
+      [
+        0.12101483122609998,
+        0.001987695303574284,
+        0.0030870322710274474,
+        0.0,
+        -0.01019463403718349,
+        -0.01306675868049834,
+        -0.025041127225198058,
+        -0.010769420320952662
+      ],
+      [
+        0.0011449024925293076,
+        0.0001310161701293182,
+        0.0,
+        -0.018856547129202674,
+        0.0,
+        0.028756489652986852,
+        0.0001222500060128343,
+        0.0010378553868660516
+      ],
+      [
+        -0.00031598357924429927,
+        0.00024024027920007136,
+        -0.00314029978879681,
+        -0.030597715916244817,
+        0.06648561682413233,
+        0.0,
+        -0.2874046583355806,
+        -0.00021296357971249018
+      ],
+      [
+        -0.0016753466395493981,
+        -0.0021069423500362644,
+        0.0004300315572462736,
+        -0.07121145893869711,
+        0.1837719567133073,
+        -0.3702060552022686,
+        0.0,
+        0.00017523665234327407
+      ],
+      [
+        -0.03764300201924562,
+        0.0,
+        -0.00029803634100455565,
+        -0.008524377001084545,
+        0.004242721868008854,
+        -0.0005083444812115346,
+        0.0,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Volatility",
+        "target": "Momentum",
+        "mean_effect": -0.5132395097665737,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Volatility",
+        "target": "Volume",
+        "mean_effect": 0.1837719567133073,
+        "edge_prob": 0.996
+      },
+      {
+        "source": "Reversal",
+        "target": "Momentum",
+        "mean_effect": 0.1185718590064647,
+        "edge_prob": 0.976
+      },
+      {
+        "source": "Liquidity",
+        "target": "Momentum",
+        "mean_effect": -0.1421456209444235,
+        "edge_prob": 0.948
+      },
+      {
+        "source": "Volume",
+        "target": "Momentum",
+        "mean_effect": 0.10534118428899066,
+        "edge_prob": 0.832
+      },
+      {
+        "source": "Volume",
+        "target": "Liquidity",
+        "mean_effect": -0.2874046583355806,
+        "edge_prob": 0.766
+      },
+      {
+        "source": "Volatility",
+        "target": "Liquidity",
+        "mean_effect": 0.06648561682413233,
+        "edge_prob": 0.756
+      },
+      {
+        "source": "Entropy",
+        "target": "Momentum",
+        "mean_effect": -0.06599068469005559,
+        "edge_prob": 0.754
+      },
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.07121145893869711,
+        "edge_prob": 0.734
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.31126159348180416,
+        "edge_prob": 0.72
+      },
+      {
+        "source": "Reversal",
+        "target": "Liquidity",
+        "mean_effect": -0.030597715916244817,
+        "edge_prob": 0.542
+      },
+      {
+        "source": "Returns",
+        "target": "FutureReturn",
+        "mean_effect": -0.03764300201924562,
+        "edge_prob": 0.51
+      }
+    ],
+    "tie_rate_log_returns": 0.0,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Liquidity": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 28,
+      "n_independent": 2,
+      "fraction_independent": 0.07142857142857142
+    }
+  },
+  "e3_DIA_pe": {
+    "n_obs": 6778,
+    "labels": [
+      "Returns",
+      "Entropy",
+      "Momentum",
+      "Reversal",
+      "Volatility",
+      "Liquidity",
+      "Volume",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "Liquidity",
+      "Reversal",
+      "Returns",
+      "FutureReturn",
+      "Volatility",
+      "Entropy",
+      "Momentum",
+      "Volume"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Entropy": true,
+      "Momentum": true,
+      "Reversal": true,
+      "Volatility": true,
+      "Liquidity": true,
+      "Volume": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.43075853369327777,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.050399837373309324,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.030595585867973066,
+        0.0,
+        0.10840257383536661,
+        -0.5809954262694361,
+        0.08798183245410271,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.04636821606205374,
+        0.0,
+        0.1477843064288768,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.037773591539888206,
+        -0.15545695300209428,
+        -0.12619935494535062,
+        0.2555481932564468,
+        -0.5771843418215676,
+        0.0,
+        0.0
+      ],
+      [
+        -0.09382997035378333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.002,
+        0.044,
+        0.684,
+        0.04,
+        0.016,
+        0.016,
+        0.122
+      ],
+      [
+        0.0,
+        0.0,
+        0.18,
+        0.164,
+        0.148,
+        0.462,
+        0.114,
+        0.018
+      ],
+      [
+        0.096,
+        0.374,
+        0.0,
+        0.862,
+        0.742,
+        0.666,
+        0.008,
+        0.068
+      ],
+      [
+        0.316,
+        0.084,
+        0.134,
+        0.0,
+        0.122,
+        0.186,
+        0.044,
+        0.14
+      ],
+      [
+        0.26,
+        0.21,
+        0.258,
+        0.566,
+        0.0,
+        0.908,
+        0.164,
+        0.046
+      ],
+      [
+        0.0,
+        0.136,
+        0.11,
+        0.05,
+        0.092,
+        0.0,
+        0.0,
+        0.002
+      ],
+      [
+        0.014,
+        0.648,
+        0.968,
+        0.956,
+        0.836,
+        1.0,
+        0.0,
+        0.026
+      ],
+      [
+        0.748,
+        0.002,
+        0.02,
+        0.234,
+        0.052,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        5.2458759370651834e-05,
+        0.0032759706674484195,
+        0.29483224998407637,
+        0.0035297257101593077,
+        -0.0011390026460184467,
+        -0.0014793769944595203,
+        -0.007956571286078492
+      ],
+      [
+        0.0,
+        0.0,
+        0.011447446001430632,
+        -0.006624878695877908,
+        -0.0014564349913364074,
+        0.028549444027024865,
+        -0.009089174792891596,
+        -0.0005343087248315297
+      ],
+      [
+        0.0037757920702123,
+        0.01956226331158712,
+        0.0,
+        0.09634130491921218,
+        -0.4356285167296278,
+        0.06500575062139442,
+        -0.0006108652980146755,
+        -0.0021503887891007618
+      ],
+      [
+        0.13855217175152842,
+        -0.003420969906013573,
+        0.017034053465938417,
+        0.0,
+        0.011521860569871731,
+        -0.0012442637453902923,
+        -0.008428409525634598,
+        -0.008522325686224918
+      ],
+      [
+        0.010101898887080962,
+        -0.00645432558352143,
+        -0.11646367847248908,
+        -0.03069465610399708,
+        0.0,
+        0.16785124343161373,
+        0.03774359445561497,
+        -8.515256915345212e-05
+      ],
+      [
+        0.0,
+        0.006218750275530707,
+        -0.007009826160598928,
+        0.0010701547497845923,
+        0.009621529049283508,
+        0.0,
+        0.0,
+        6.604864205667619e-05
+      ],
+      [
+        -0.0005265911500740574,
+        -0.030721541310251822,
+        -0.16634098024013366,
+        -0.12041874114052323,
+        0.2293833977603932,
+        -0.6178311215368896,
+        0.0,
+        -0.0005424477505183167
+      ],
+      [
+        -0.07221383227288768,
+        8.173986696515872e-05,
+        -0.00088776473800132,
+        -0.009546925956953176,
+        0.0022284620825410053,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Liquidity",
+        "target": "Volume",
+        "mean_effect": -0.6178311215368896,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Momentum",
+        "target": "Volume",
+        "mean_effect": -0.16634098024013366,
+        "edge_prob": 0.968
+      },
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.12041874114052323,
+        "edge_prob": 0.956
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volatility",
+        "mean_effect": 0.16785124343161373,
+        "edge_prob": 0.908
+      },
+      {
+        "source": "Reversal",
+        "target": "Momentum",
+        "mean_effect": 0.09634130491921218,
+        "edge_prob": 0.862
+      },
+      {
+        "source": "Volatility",
+        "target": "Volume",
+        "mean_effect": 0.2293833977603932,
+        "edge_prob": 0.836
+      },
+      {
+        "source": "Returns",
+        "target": "FutureReturn",
+        "mean_effect": -0.07221383227288768,
+        "edge_prob": 0.748
+      },
+      {
+        "source": "Volatility",
+        "target": "Momentum",
+        "mean_effect": -0.4356285167296278,
+        "edge_prob": 0.742
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.29483224998407637,
+        "edge_prob": 0.684
+      },
+      {
+        "source": "Liquidity",
+        "target": "Momentum",
+        "mean_effect": 0.06500575062139442,
+        "edge_prob": 0.666
+      },
+      {
+        "source": "Entropy",
+        "target": "Volume",
+        "mean_effect": -0.030721541310251822,
+        "edge_prob": 0.648
+      },
+      {
+        "source": "Reversal",
+        "target": "Volatility",
+        "mean_effect": -0.03069465610399708,
+        "edge_prob": 0.566
+      }
+    ],
+    "tie_rate_log_returns": 0.0,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Liquidity": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 28,
+      "n_independent": 3,
+      "fraction_independent": 0.10714285714285714
+    }
+  },
+  "e3_DIA_wpe": {
+    "n_obs": 6778,
+    "labels": [
+      "Returns",
+      "Entropy",
+      "Momentum",
+      "Reversal",
+      "Volatility",
+      "Liquidity",
+      "Volume",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "Liquidity",
+      "Reversal",
+      "Entropy",
+      "Returns",
+      "Volatility",
+      "FutureReturn",
+      "Momentum",
+      "Volume"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Entropy": true,
+      "Momentum": true,
+      "Reversal": true,
+      "Volatility": true,
+      "Liquidity": true,
+      "Volume": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.43075853369327777,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.10253236704459423,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.1079560832466654,
+        -0.5816174673903756,
+        0.08962040799297391,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.04636821606205374,
+        0.0,
+        0.1477843064288768,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -0.1572251631189456,
+        -0.12545722452193392,
+        0.2552877490520345,
+        -0.5790488745311614,
+        0.0,
+        0.0
+      ],
+      [
+        -0.09382997035378333,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.004,
+        0.044,
+        0.682,
+        0.048,
+        0.02,
+        0.022,
+        0.116
+      ],
+      [
+        0.004,
+        0.0,
+        0.17,
+        0.356,
+        0.162,
+        0.83,
+        0.046,
+        0.036
+      ],
+      [
+        0.09,
+        0.26,
+        0.0,
+        0.872,
+        0.746,
+        0.682,
+        0.008,
+        0.062
+      ],
+      [
+        0.318,
+        0.06,
+        0.126,
+        0.0,
+        0.114,
+        0.18,
+        0.04,
+        0.146
+      ],
+      [
+        0.258,
+        0.212,
+        0.254,
+        0.566,
+        0.0,
+        0.904,
+        0.162,
+        0.044
+      ],
+      [
+        0.0,
+        0.156,
+        0.104,
+        0.054,
+        0.096,
+        0.0,
+        0.0,
+        0.002
+      ],
+      [
+        0.006,
+        0.304,
+        0.966,
+        0.96,
+        0.838,
+        1.0,
+        0.0,
+        0.012
+      ],
+      [
+        0.75,
+        0.004,
+        0.022,
+        0.238,
+        0.056,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        3.780087516791132e-05,
+        0.0033813514055973134,
+        0.2940800983843555,
+        0.004185142736879521,
+        -0.0013840529650676477,
+        -0.001881132688336424,
+        -0.007596088366913845
+      ],
+      [
+        0.00016088504036781842,
+        0.0,
+        -0.008233088287722939,
+        0.018018074986923836,
+        0.002837006715938998,
+        0.090546482255552,
+        -0.0032859729266268858,
+        0.001250248451503853
+      ],
+      [
+        0.003503347337416506,
+        -0.011264675745382006,
+        0.0,
+        0.09762614172674482,
+        -0.438435018229271,
+        0.06738576726656989,
+        -0.0005387888442755762,
+        -0.001971929477132532
+      ],
+      [
+        0.13942206781345326,
+        0.0024726126801238825,
+        0.015634539484604075,
+        0.0,
+        0.011025090238867928,
+        -0.0007870851063666173,
+        -0.00744687837331878,
+        -0.008118709429553353
+      ],
+      [
+        0.009890333050884851,
+        0.008466439376034102,
+        -0.11460203640287017,
+        -0.031174450433401765,
+        0.0,
+        0.16563784940017426,
+        0.03700627320840266,
+        -6.088452284155589e-05
+      ],
+      [
+        0.0,
+        0.01095176543620553,
+        -0.006494087199667067,
+        0.0010134726602125169,
+        0.010430298134110427,
+        0.0,
+        0.0,
+        6.378941721487901e-05
+      ],
+      [
+        -0.0003180938968431608,
+        -0.010998881914027038,
+        -0.16789941332023536,
+        -0.11995108905513933,
+        0.2297254361082388,
+        -0.6181223611418024,
+        0.0,
+        -0.00018978851835117826
+      ],
+      [
+        -0.07268381506796387,
+        0.00012507661881693013,
+        -0.0009443393307800753,
+        -0.009789635069261659,
+        0.0023829180220906535,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Liquidity",
+        "target": "Volume",
+        "mean_effect": -0.6181223611418024,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Momentum",
+        "target": "Volume",
+        "mean_effect": -0.16789941332023536,
+        "edge_prob": 0.966
+      },
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.11995108905513933,
+        "edge_prob": 0.96
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volatility",
+        "mean_effect": 0.16563784940017426,
+        "edge_prob": 0.904
+      },
+      {
+        "source": "Reversal",
+        "target": "Momentum",
+        "mean_effect": 0.09762614172674482,
+        "edge_prob": 0.872
+      },
+      {
+        "source": "Volatility",
+        "target": "Volume",
+        "mean_effect": 0.2297254361082388,
+        "edge_prob": 0.838
+      },
+      {
+        "source": "Liquidity",
+        "target": "Entropy",
+        "mean_effect": 0.090546482255552,
+        "edge_prob": 0.83
+      },
+      {
+        "source": "Returns",
+        "target": "FutureReturn",
+        "mean_effect": -0.07268381506796387,
+        "edge_prob": 0.75
+      },
+      {
+        "source": "Volatility",
+        "target": "Momentum",
+        "mean_effect": -0.438435018229271,
+        "edge_prob": 0.746
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.2940800983843555,
+        "edge_prob": 0.682
+      },
+      {
+        "source": "Liquidity",
+        "target": "Momentum",
+        "mean_effect": 0.06738576726656989,
+        "edge_prob": 0.682
+      },
+      {
+        "source": "Reversal",
+        "target": "Volatility",
+        "mean_effect": -0.031174450433401765,
+        "edge_prob": 0.566
+      }
+    ],
+    "tie_rate_log_returns": 0.0,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Liquidity": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 28,
+      "n_independent": 1,
+      "fraction_independent": 0.03571428571428571
+    }
+  },
+  "e4_A_bollerslev_pe": {
+    "n_obs": 8034,
+    "labels": [
+      "Returns",
+      "Volatility",
+      "VIX",
+      "Entropy",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "Volatility",
+      "Entropy",
+      "Returns",
+      "VIX",
+      "FutureReturn"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Volatility": true,
+      "VIX": true,
+      "Entropy": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.1384666644187152,
+        0.8657020653538907,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.08148935927174077,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.032,
+        0.016,
+        0.052,
+        0.0
+      ],
+      [
+        0.06,
+        0.0,
+        0.038,
+        0.104,
+        0.01
+      ],
+      [
+        0.984,
+        0.962,
+        0.0,
+        0.27,
+        0.182
+      ],
+      [
+        0.066,
+        0.23,
+        0.044,
+        0.0,
+        0.002
+      ],
+      [
+        0.964,
+        0.224,
+        0.398,
+        0.006,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        0.0008113566626042471,
+        -0.0020425352103085525,
+        0.002047805016901525,
+        0.0
+      ],
+      [
+        0.0035527369548007566,
+        0.0,
+        0.030453318346009187,
+        0.001303884290516912,
+        -0.000359530792356205
+      ],
+      [
+        -0.13515231253404697,
+        0.8352182007841957,
+        0.0,
+        0.0029875927086316888,
+        0.0046418468140945685
+      ],
+      [
+        0.0025000794607996824,
+        -0.007642021768376615,
+        -0.0009762722035543118,
+        0.0,
+        7.011556584445495e-05
+      ],
+      [
+        -0.07243126111306175,
+        -0.015956941098182992,
+        0.028218783704843303,
+        0.0001926666816111811,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Returns",
+        "target": "VIX",
+        "mean_effect": -0.13515231253404697,
+        "edge_prob": 0.984
+      },
+      {
+        "source": "Returns",
+        "target": "FutureReturn",
+        "mean_effect": -0.07243126111306175,
+        "edge_prob": 0.964
+      },
+      {
+        "source": "Volatility",
+        "target": "VIX",
+        "mean_effect": 0.8352182007841957,
+        "edge_prob": 0.962
+      }
+    ],
+    "tie_rate_log_returns": 0.0003735059760956175,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "VIX": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 10,
+      "n_independent": 2,
+      "fraction_independent": 0.2
+    },
+    "citation": "Bollerslev, Patton & Quaedvlieg (2020), JFE",
+    "tradition": "Realized volatility / variance risk premium",
+    "size": 4,
+    "entropy_disconnected": true
+  },
+  "e4_A_bollerslev_wpe": {
+    "n_obs": 8034,
+    "labels": [
+      "Returns",
+      "Volatility",
+      "VIX",
+      "Entropy",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "Returns",
+      "Volatility",
+      "Entropy",
+      "VIX",
+      "FutureReturn"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Volatility": true,
+      "VIX": true,
+      "Entropy": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.13869059764378638,
+        0.8657497561107276,
+        0.0,
+        0.033141494535237744,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.08148935927174077,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.034,
+        0.014,
+        0.0,
+        0.002
+      ],
+      [
+        0.054,
+        0.0,
+        0.032,
+        0.108,
+        0.01
+      ],
+      [
+        0.986,
+        0.968,
+        0.0,
+        0.756,
+        0.198
+      ],
+      [
+        0.042,
+        0.252,
+        0.094,
+        0.0,
+        0.002
+      ],
+      [
+        0.962,
+        0.212,
+        0.396,
+        0.002,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        0.000442169535467885,
+        -0.0017992165331472453,
+        0.0,
+        -0.00011748846607154559
+      ],
+      [
+        0.002830595739307928,
+        0.0,
+        0.025469757315536204,
+        0.0028464052630959528,
+        -0.0003614328179665066
+      ],
+      [
+        -0.1354527760189236,
+        0.840579018327326,
+        0.0,
+        0.02794141468428796,
+        0.004970646729766861
+      ],
+      [
+        0.0016433056546507987,
+        -0.02074938494502595,
+        0.014756643367651274,
+        0.0,
+        6.205851050324292e-05
+      ],
+      [
+        -0.07241633762623557,
+        -0.01495474370025834,
+        0.02731433912566042,
+        6.636695040299412e-05,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Returns",
+        "target": "VIX",
+        "mean_effect": -0.1354527760189236,
+        "edge_prob": 0.986
+      },
+      {
+        "source": "Volatility",
+        "target": "VIX",
+        "mean_effect": 0.840579018327326,
+        "edge_prob": 0.968
+      },
+      {
+        "source": "Returns",
+        "target": "FutureReturn",
+        "mean_effect": -0.07241633762623557,
+        "edge_prob": 0.962
+      },
+      {
+        "source": "Entropy",
+        "target": "VIX",
+        "mean_effect": 0.02794141468428796,
+        "edge_prob": 0.756
+      }
+    ],
+    "tie_rate_log_returns": 0.0003735059760956175,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "VIX": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 10,
+      "n_independent": 2,
+      "fraction_independent": 0.2
+    },
+    "citation": "Bollerslev, Patton & Quaedvlieg (2020), JFE",
+    "tradition": "Realized volatility / variance risk premium",
+    "size": 4,
+    "entropy_disconnected": false
+  },
+  "e4_B_kelly_pe": {
+    "n_obs": 7647,
+    "labels": [
+      "Returns",
+      "Volatility",
+      "Momentum",
+      "Reversal",
+      "Volume",
+      "Entropy",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "Reversal",
+      "Entropy",
+      "Volatility",
+      "Volume",
+      "Returns",
+      "Momentum",
+      "FutureReturn"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Volatility": true,
+      "Momentum": true,
+      "Reversal": true,
+      "Volume": true,
+      "Entropy": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.41192183198020854,
+        -0.052315560221109475,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.05346502257755418,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.5220478786049674,
+        0.0,
+        0.09666280304975162,
+        -0.10122280854252047,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.10335417058833492,
+        0.0,
+        -0.27468522806669876,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.06363912277564168,
+        0.0,
+        0.0,
+        -0.04368867918715879,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.108,
+        0.012,
+        0.628,
+        0.292,
+        0.026,
+        0.066
+      ],
+      [
+        0.268,
+        0.0,
+        0.38,
+        0.672,
+        0.02,
+        0.194,
+        0.088
+      ],
+      [
+        0.04,
+        0.62,
+        0.0,
+        0.946,
+        0.662,
+        0.346,
+        0.048
+      ],
+      [
+        0.372,
+        0.048,
+        0.05,
+        0.0,
+        0.006,
+        0.082,
+        0.05
+      ],
+      [
+        0.69,
+        0.75,
+        0.338,
+        0.994,
+        0.0,
+        0.264,
+        0.03
+      ],
+      [
+        0.018,
+        0.162,
+        0.048,
+        0.108,
+        0.012,
+        0.0,
+        0.004
+      ],
+      [
+        0.732,
+        0.054,
+        0.018,
+        0.626,
+        0.002,
+        0.006,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        0.00423311403641202,
+        0.0012444154513832442,
+        0.2641639502858142,
+        -0.0169145945978274,
+        0.0009400225636855264,
+        -0.0035320149732089934
+      ],
+      [
+        0.010537097296507586,
+        0.0,
+        -0.1841586702827173,
+        -0.0314251956248222,
+        -0.0004065897084630482,
+        -0.001127921896588359,
+        0.0006919756889828139
+      ],
+      [
+        0.001965814453414684,
+        -0.3247538996569991,
+        0.0,
+        0.10737595812414535,
+        -0.06643710701727305,
+        -0.013836836511354866,
+        0.0003883640090881831
+      ],
+      [
+        0.16095061168621233,
+        0.004161555981619506,
+        0.006745839263108915,
+        0.0,
+        -0.0009964352036717942,
+        0.0033719672073580713,
+        -0.0023983285014900105
+      ],
+      [
+        -0.0443926209578555,
+        0.06902006425118547,
+        -0.04586343319364831,
+        -0.24984927170791077,
+        0.0,
+        0.010558825183984898,
+        -0.0008436277551670336
+      ],
+      [
+        0.0006595650013753589,
+        -0.007116050811362274,
+        -0.0012085254181484718,
+        0.0050846251723454545,
+        0.0005573290048734397,
+        0.0,
+        0.00013016758972523955
+      ],
+      [
+        -0.0574441000875614,
+        0.0016933239348966556,
+        0.0006929374006147638,
+        -0.03955929203849191,
+        5.147159990856329e-05,
+        0.00019722856532786382,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.24984927170791077,
+        "edge_prob": 0.994
+      },
+      {
+        "source": "Reversal",
+        "target": "Momentum",
+        "mean_effect": 0.10737595812414535,
+        "edge_prob": 0.946
+      },
+      {
+        "source": "Volatility",
+        "target": "Volume",
+        "mean_effect": 0.06902006425118547,
+        "edge_prob": 0.75
+      },
+      {
+        "source": "Returns",
+        "target": "FutureReturn",
+        "mean_effect": -0.0574441000875614,
+        "edge_prob": 0.732
+      },
+      {
+        "source": "Returns",
+        "target": "Volume",
+        "mean_effect": -0.0443926209578555,
+        "edge_prob": 0.69
+      },
+      {
+        "source": "Reversal",
+        "target": "Volatility",
+        "mean_effect": -0.0314251956248222,
+        "edge_prob": 0.672
+      },
+      {
+        "source": "Volume",
+        "target": "Momentum",
+        "mean_effect": -0.06643710701727305,
+        "edge_prob": 0.662
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.2641639502858142,
+        "edge_prob": 0.628
+      },
+      {
+        "source": "Reversal",
+        "target": "FutureReturn",
+        "mean_effect": -0.03955929203849191,
+        "edge_prob": 0.626
+      },
+      {
+        "source": "Volatility",
+        "target": "Momentum",
+        "mean_effect": -0.3247538996569991,
+        "edge_prob": 0.62
+      }
+    ],
+    "tie_rate_log_returns": 0.0003735059760956175,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "ffd",
+        "d": 0.3,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 21,
+      "n_independent": 3,
+      "fraction_independent": 0.14285714285714285
+    },
+    "citation": "Gu, Kelly & Xiu (2020), RFS",
+    "tradition": "Machine learning asset pricing",
+    "size": 6,
+    "entropy_disconnected": true
+  },
+  "e4_B_kelly_wpe": {
+    "n_obs": 7647,
+    "labels": [
+      "Returns",
+      "Volatility",
+      "Momentum",
+      "Reversal",
+      "Volume",
+      "Entropy",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "Reversal",
+      "Volatility",
+      "Volume",
+      "Returns",
+      "Momentum",
+      "Entropy",
+      "FutureReturn"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Volatility": true,
+      "Momentum": true,
+      "Reversal": true,
+      "Volume": true,
+      "Entropy": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.028390951416717946,
+        0.0,
+        0.41255001451928647,
+        -0.055490810747712095,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.05346502257755418,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.5220478786049674,
+        0.0,
+        0.09666280304975162,
+        -0.10122280854252047,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.10335417058833492,
+        0.0,
+        -0.27468522806669876,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.05189947781578798,
+        -0.11034558504069794,
+        0.03974607705872053,
+        -0.05536368602680665,
+        0.0,
+        0.0
+      ],
+      [
+        -0.06363912277564168,
+        0.0,
+        0.0,
+        -0.04368867918715879,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.098,
+        0.012,
+        0.632,
+        0.252,
+        0.002,
+        0.074
+      ],
+      [
+        0.288,
+        0.0,
+        0.376,
+        0.676,
+        0.02,
+        0.138,
+        0.09
+      ],
+      [
+        0.022,
+        0.624,
+        0.0,
+        0.956,
+        0.678,
+        0.396,
+        0.056
+      ],
+      [
+        0.368,
+        0.042,
+        0.04,
+        0.0,
+        0.004,
+        0.052,
+        0.048
+      ],
+      [
+        0.728,
+        0.76,
+        0.322,
+        0.996,
+        0.0,
+        0.37,
+        0.038
+      ],
+      [
+        0.004,
+        0.396,
+        0.564,
+        0.67,
+        0.438,
+        0.0,
+        0.012
+      ],
+      [
+        0.736,
+        0.044,
+        0.016,
+        0.63,
+        0.002,
+        0.006,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        0.003867060010655649,
+        0.0012444154513832442,
+        0.26636583665981417,
+        -0.014756705713435136,
+        -5.600714078498746e-05,
+        -0.003795552261653638
+      ],
+      [
+        0.011082617349520157,
+        0.0,
+        -0.18236196548366604,
+        -0.03148214218126213,
+        -0.0004058017907710837,
+        -0.0034289753298997086,
+        0.0007504428965753186
+      ],
+      [
+        0.0012533742552802366,
+        -0.3268110857345296,
+        0.0,
+        0.1083470785861589,
+        -0.06946804055612132,
+        -0.02789112464007258,
+        0.000605571274990289
+      ],
+      [
+        0.15937851286409604,
+        0.0035914324006592157,
+        0.005707369838003868,
+        0.0,
+        -0.0005803760017199033,
+        0.002717988573013148,
+        -0.002388422912062291
+      ],
+      [
+        -0.04677879132474295,
+        0.06982700461794802,
+        -0.04425413110505848,
+        -0.2484764905599677,
+        0.0,
+        -0.01957424239763932,
+        -0.0010677312916798185
+      ],
+      [
+        5.9915290388275756e-06,
+        -0.03079963340464393,
+        -0.06289997935092713,
+        0.03466700866099307,
+        -0.027273296473689708,
+        0.0,
+        0.00036344059302117625
+      ],
+      [
+        -0.057411204217248726,
+        0.0013539805783014476,
+        0.00063342424424677,
+        -0.03960883073281372,
+        5.147159990856329e-05,
+        0.0002180904678340526,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.2484764905599677,
+        "edge_prob": 0.996
+      },
+      {
+        "source": "Reversal",
+        "target": "Momentum",
+        "mean_effect": 0.1083470785861589,
+        "edge_prob": 0.956
+      },
+      {
+        "source": "Volatility",
+        "target": "Volume",
+        "mean_effect": 0.06982700461794802,
+        "edge_prob": 0.76
+      },
+      {
+        "source": "Returns",
+        "target": "FutureReturn",
+        "mean_effect": -0.057411204217248726,
+        "edge_prob": 0.736
+      },
+      {
+        "source": "Returns",
+        "target": "Volume",
+        "mean_effect": -0.04677879132474295,
+        "edge_prob": 0.728
+      },
+      {
+        "source": "Volume",
+        "target": "Momentum",
+        "mean_effect": -0.06946804055612132,
+        "edge_prob": 0.678
+      },
+      {
+        "source": "Reversal",
+        "target": "Volatility",
+        "mean_effect": -0.03148214218126213,
+        "edge_prob": 0.676
+      },
+      {
+        "source": "Reversal",
+        "target": "Entropy",
+        "mean_effect": 0.03466700866099307,
+        "edge_prob": 0.67
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.26636583665981417,
+        "edge_prob": 0.632
+      },
+      {
+        "source": "Reversal",
+        "target": "FutureReturn",
+        "mean_effect": -0.03960883073281372,
+        "edge_prob": 0.63
+      },
+      {
+        "source": "Volatility",
+        "target": "Momentum",
+        "mean_effect": -0.3268110857345296,
+        "edge_prob": 0.624
+      },
+      {
+        "source": "Momentum",
+        "target": "Entropy",
+        "mean_effect": -0.06289997935092713,
+        "edge_prob": 0.564
+      }
+    ],
+    "tie_rate_log_returns": 0.0003735059760956175,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "ffd",
+        "d": 0.3,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 21,
+      "n_independent": 3,
+      "fraction_independent": 0.14285714285714285
+    },
+    "citation": "Gu, Kelly & Xiu (2020), RFS",
+    "tradition": "Machine learning asset pricing",
+    "size": 6,
+    "entropy_disconnected": false
+  },
+  "e4_C_lopezdeprado_pe": {
+    "n_obs": 7782,
+    "labels": [
+      "Returns",
+      "Volatility",
+      "Momentum",
+      "Reversal",
+      "LongReversal",
+      "Liquidity",
+      "Volume",
+      "Entropy",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "Entropy",
+      "Liquidity",
+      "Reversal",
+      "Returns",
+      "Volatility",
+      "Volume",
+      "Momentum",
+      "FutureReturn",
+      "LongReversal"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Volatility": true,
+      "Momentum": true,
+      "Reversal": true,
+      "LongReversal": true,
+      "Liquidity": true,
+      "Volume": true,
+      "Entropy": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.42644919786764696,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.05116002990335372,
+        0.0,
+        -0.11639433973110916,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.5036794148972903,
+        0.0,
+        0.09999695395141243,
+        0.0,
+        -0.11052251805676852,
+        -0.26533863741765523,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.03943599505519578,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.18561015721982782,
+        -0.2863182202928121,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.08200923602828553,
+        0.0,
+        -0.08269758611065779,
+        0.0,
+        -0.6085743879379557,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.06301382606798456,
+        0.0,
+        0.0,
+        -0.044287706446997165,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.008,
+        0.012,
+        0.558,
+        0.0,
+        0.0,
+        0.0,
+        0.014,
+        0.064
+      ],
+      [
+        0.376,
+        0.0,
+        0.36,
+        0.636,
+        0.07,
+        0.962,
+        0.252,
+        0.232,
+        0.132
+      ],
+      [
+        0.102,
+        0.64,
+        0.0,
+        0.948,
+        0.168,
+        0.828,
+        0.718,
+        0.332,
+        0.038
+      ],
+      [
+        0.442,
+        0.04,
+        0.048,
+        0.0,
+        0.008,
+        0.446,
+        0.034,
+        0.104,
+        0.228
+      ],
+      [
+        0.0,
+        0.636,
+        0.564,
+        0.592,
+        0.0,
+        0.942,
+        0.928,
+        0.418,
+        0.012
+      ],
+      [
+        0.0,
+        0.0,
+        0.01,
+        0.098,
+        0.006,
+        0.0,
+        0.0,
+        0.126,
+        0.0
+      ],
+      [
+        0.006,
+        0.608,
+        0.28,
+        0.956,
+        0.072,
+        1.0,
+        0.0,
+        0.308,
+        0.012
+      ],
+      [
+        0.052,
+        0.126,
+        0.064,
+        0.088,
+        0.06,
+        0.368,
+        0.07,
+        0.0,
+        0.002
+      ],
+      [
+        0.788,
+        0.028,
+        0.008,
+        0.43,
+        0.002,
+        0.008,
+        0.002,
+        0.002,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        0.0004791798581484017,
+        0.000960070104546401,
+        0.23778047889719603,
+        0.0,
+        0.0,
+        0.0,
+        0.0005279050129441229,
+        -0.003827810270504954
+      ],
+      [
+        0.013792827152496462,
+        0.0,
+        -0.17437067737759326,
+        -0.03127642703880786,
+        0.001299436396306931,
+        -0.11628137269322059,
+        -0.023256223921252,
+        -0.0031988850254365845,
+        0.0023014987839601554
+      ],
+      [
+        0.003431978977964033,
+        -0.32295759780145017,
+        0.0,
+        0.10604787339505277,
+        -0.0103730813024654,
+        -0.009670499599166986,
+        -0.18506883486386913,
+        -0.00920564257950166,
+        0.0004918827883251551
+      ],
+      [
+        0.18956651741909047,
+        0.002467921170321142,
+        0.0059559232285492265,
+        0.0,
+        -0.00039095969431689957,
+        0.019059367161391914,
+        -0.002008382250428537,
+        0.003657102769484438,
+        -0.012399808370152417
+      ],
+      [
+        0.0,
+        0.0507767572575997,
+        0.060051861976086814,
+        -0.029970678670908545,
+        0.0,
+        -0.2043117361598877,
+        -0.26534722454294896,
+        0.017078978291124026,
+        -0.00039708359910144576
+      ],
+      [
+        0.0,
+        0.0,
+        0.0005928729680355063,
+        0.0030372860190447156,
+        0.0001510864489300091,
+        0.0,
+        0.0,
+        -0.005728896715508987,
+        0.0
+      ],
+      [
+        -0.00019205773955921019,
+        0.05227550537405534,
+        -0.05179498361347976,
+        -0.07317210163731339,
+        -0.012509150151652994,
+        -0.7342887386393644,
+        0.0,
+        0.006875509436119754,
+        9.710006363734519e-05
+      ],
+      [
+        0.0018285275792905456,
+        -0.0061427280114961,
+        -0.0006798234421399967,
+        0.00350176589636071,
+        0.002002951576737372,
+        -0.03084492220022885,
+        0.0015931191713135105,
+        0.0,
+        6.741283682214727e-05
+      ],
+      [
+        -0.06089920694025196,
+        0.0012153627946641721,
+        0.0002511933391024386,
+        -0.027154513137966588,
+        -0.00010460341102813461,
+        0.00022922392860081606,
+        -5.643470247907826e-05,
+        8.446970281376006e-05,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Liquidity",
+        "target": "Volume",
+        "mean_effect": -0.7342887386393644,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volatility",
+        "mean_effect": -0.11628137269322059,
+        "edge_prob": 0.962
+      },
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.07317210163731339,
+        "edge_prob": 0.956
+      },
+      {
+        "source": "Reversal",
+        "target": "Momentum",
+        "mean_effect": 0.10604787339505277,
+        "edge_prob": 0.948
+      },
+      {
+        "source": "Liquidity",
+        "target": "LongReversal",
+        "mean_effect": -0.2043117361598877,
+        "edge_prob": 0.942
+      },
+      {
+        "source": "Volume",
+        "target": "LongReversal",
+        "mean_effect": -0.26534722454294896,
+        "edge_prob": 0.928
+      },
+      {
+        "source": "Liquidity",
+        "target": "Momentum",
+        "mean_effect": -0.009670499599166986,
+        "edge_prob": 0.828
+      },
+      {
+        "source": "Returns",
+        "target": "FutureReturn",
+        "mean_effect": -0.06089920694025196,
+        "edge_prob": 0.788
+      },
+      {
+        "source": "Volume",
+        "target": "Momentum",
+        "mean_effect": -0.18506883486386913,
+        "edge_prob": 0.718
+      },
+      {
+        "source": "Volatility",
+        "target": "Momentum",
+        "mean_effect": -0.32295759780145017,
+        "edge_prob": 0.64
+      },
+      {
+        "source": "Reversal",
+        "target": "Volatility",
+        "mean_effect": -0.03127642703880786,
+        "edge_prob": 0.636
+      },
+      {
+        "source": "Volatility",
+        "target": "LongReversal",
+        "mean_effect": 0.0507767572575997,
+        "edge_prob": 0.636
+      },
+      {
+        "source": "Volatility",
+        "target": "Volume",
+        "mean_effect": 0.05227550537405534,
+        "edge_prob": 0.608
+      },
+      {
+        "source": "Reversal",
+        "target": "LongReversal",
+        "mean_effect": -0.029970678670908545,
+        "edge_prob": 0.592
+      },
+      {
+        "source": "Momentum",
+        "target": "LongReversal",
+        "mean_effect": 0.060051861976086814,
+        "edge_prob": 0.564
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.23778047889719603,
+        "edge_prob": 0.558
+      }
+    ],
+    "tie_rate_log_returns": 0.00038560411311053987,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "LongReversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Liquidity": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 36,
+      "n_independent": 2,
+      "fraction_independent": 0.05555555555555555
+    },
+    "citation": "L\u00f3pez de Prado & Zoonekynd (2024), JPM",
+    "tradition": "Causal factor investing (Barra USE4L adapted)",
+    "size": 8,
+    "entropy_disconnected": true
+  },
+  "e4_C_lopezdeprado_wpe": {
+    "n_obs": 7782,
+    "labels": [
+      "Returns",
+      "Volatility",
+      "Momentum",
+      "Reversal",
+      "LongReversal",
+      "Liquidity",
+      "Volume",
+      "Entropy",
+      "FutureReturn"
+    ],
+    "causal_order": [
+      "Liquidity",
+      "Reversal",
+      "Returns",
+      "Volatility",
+      "Volume",
+      "Momentum",
+      "FutureReturn",
+      "LongReversal",
+      "Entropy"
+    ],
+    "non_gaussian": {
+      "Returns": true,
+      "Volatility": true,
+      "Momentum": true,
+      "Reversal": true,
+      "LongReversal": true,
+      "Liquidity": true,
+      "Volume": true,
+      "Entropy": true,
+      "FutureReturn": true
+    },
+    "adjacency": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.42644919786764696,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.05116002990335372,
+        0.0,
+        -0.11639433973110916,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.5036794148972903,
+        0.0,
+        0.09999695395141243,
+        0.0,
+        -0.11052251805676852,
+        -0.26533863741765523,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.03943599505519578,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.18561015721982782,
+        -0.2863182202928121,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.08200923602828553,
+        0.0,
+        -0.08269758611065779,
+        0.0,
+        -0.6085743879379557,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.051795176678034814,
+        -0.11972669898713456,
+        0.04390133840044259,
+        -0.05001182302736194,
+        -0.04897883372404686,
+        -0.10358777708913237,
+        0.0,
+        0.0
+      ],
+      [
+        -0.06301382606798456,
+        0.0,
+        0.0,
+        -0.044287706446997165,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "edge_prob": [
+      [
+        0.0,
+        0.008,
+        0.012,
+        0.564,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.058
+      ],
+      [
+        0.374,
+        0.0,
+        0.348,
+        0.64,
+        0.066,
+        0.964,
+        0.248,
+        0.234,
+        0.132
+      ],
+      [
+        0.078,
+        0.652,
+        0.0,
+        0.96,
+        0.176,
+        0.838,
+        0.732,
+        0.454,
+        0.036
+      ],
+      [
+        0.436,
+        0.036,
+        0.04,
+        0.0,
+        0.006,
+        0.46,
+        0.028,
+        0.112,
+        0.218
+      ],
+      [
+        0.0,
+        0.636,
+        0.55,
+        0.59,
+        0.0,
+        0.954,
+        0.936,
+        0.338,
+        0.024
+      ],
+      [
+        0.0,
+        0.0,
+        0.012,
+        0.086,
+        0.006,
+        0.0,
+        0.0,
+        0.034,
+        0.0
+      ],
+      [
+        0.006,
+        0.618,
+        0.266,
+        0.962,
+        0.064,
+        1.0,
+        0.0,
+        0.348,
+        0.01
+      ],
+      [
+        0.01,
+        0.356,
+        0.51,
+        0.586,
+        0.398,
+        0.372,
+        0.476,
+        0.0,
+        0.006
+      ],
+      [
+        0.796,
+        0.032,
+        0.01,
+        0.448,
+        0.002,
+        0.008,
+        0.002,
+        0.0,
+        0.0
+      ]
+    ],
+    "mean_adj": [
+      [
+        0.0,
+        0.0005728815247801577,
+        0.0009398313839808144,
+        0.2405063332399007,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.003611119763705313
+      ],
+      [
+        0.013643777816579696,
+        0.0,
+        -0.16888202088310214,
+        -0.031809663931225376,
+        0.0012751516111575785,
+        -0.11728149665703627,
+        -0.02331770234538861,
+        -0.005686351431867069,
+        0.002216015976715592
+      ],
+      [
+        0.0027433395231014493,
+        -0.3287190066474754,
+        0.0,
+        0.10830744375439022,
+        -0.011071285168434685,
+        -0.01471195300909196,
+        -0.19073259228682304,
+        -0.03505979657100016,
+        0.0004345175616463353
+      ],
+      [
+        0.18710842620944895,
+        0.0023444617870113367,
+        0.005087996181358806,
+        0.0,
+        -0.0002631014821533101,
+        0.019504521239491666,
+        -0.001630993023973324,
+        0.005198331879014433,
+        -0.011683527908372486
+      ],
+      [
+        0.0,
+        0.05002683460223675,
+        0.05862689478550632,
+        -0.029647390624178618,
+        0.0,
+        -0.20770607703688249,
+        -0.26946754549525476,
+        -0.01884674543286169,
+        -0.0006466308133308346
+      ],
+      [
+        0.0,
+        0.0,
+        0.0006592780574961698,
+        0.0025105171510669596,
+        0.0001486455770493913,
+        0.0,
+        0.0,
+        0.0001923175323391272,
+        0.0
+      ],
+      [
+        -0.00017912231717246723,
+        0.05307442227720328,
+        -0.049886801068664485,
+        -0.07289830964419723,
+        -0.011117533744019524,
+        -0.7346742298545511,
+        0.0,
+        -0.0164331202718506,
+        5.647171412947131e-05
+      ],
+      [
+        -0.0003298040132052684,
+        -0.02377842372086098,
+        -0.059552591315196524,
+        0.029013967390069166,
+        -0.02710604327307392,
+        -0.02352838944552985,
+        -0.05229029837616718,
+        0.0,
+        0.00015675316218884022
+      ],
+      [
+        -0.06104518433015347,
+        0.0013771851417876987,
+        0.0004873227367579239,
+        -0.028006581380276514,
+        -0.00010460341102813461,
+        0.00022922392860081606,
+        -5.643470247907826e-05,
+        0.0,
+        0.0
+      ]
+    ],
+    "high_confidence_edges": [
+      {
+        "source": "Liquidity",
+        "target": "Volume",
+        "mean_effect": -0.7346742298545511,
+        "edge_prob": 1.0
+      },
+      {
+        "source": "Liquidity",
+        "target": "Volatility",
+        "mean_effect": -0.11728149665703627,
+        "edge_prob": 0.964
+      },
+      {
+        "source": "Reversal",
+        "target": "Volume",
+        "mean_effect": -0.07289830964419723,
+        "edge_prob": 0.962
+      },
+      {
+        "source": "Reversal",
+        "target": "Momentum",
+        "mean_effect": 0.10830744375439022,
+        "edge_prob": 0.96
+      },
+      {
+        "source": "Liquidity",
+        "target": "LongReversal",
+        "mean_effect": -0.20770607703688249,
+        "edge_prob": 0.954
+      },
+      {
+        "source": "Volume",
+        "target": "LongReversal",
+        "mean_effect": -0.26946754549525476,
+        "edge_prob": 0.936
+      },
+      {
+        "source": "Liquidity",
+        "target": "Momentum",
+        "mean_effect": -0.01471195300909196,
+        "edge_prob": 0.838
+      },
+      {
+        "source": "Returns",
+        "target": "FutureReturn",
+        "mean_effect": -0.06104518433015347,
+        "edge_prob": 0.796
+      },
+      {
+        "source": "Volume",
+        "target": "Momentum",
+        "mean_effect": -0.19073259228682304,
+        "edge_prob": 0.732
+      },
+      {
+        "source": "Volatility",
+        "target": "Momentum",
+        "mean_effect": -0.3287190066474754,
+        "edge_prob": 0.652
+      },
+      {
+        "source": "Reversal",
+        "target": "Volatility",
+        "mean_effect": -0.031809663931225376,
+        "edge_prob": 0.64
+      },
+      {
+        "source": "Volatility",
+        "target": "LongReversal",
+        "mean_effect": 0.05002683460223675,
+        "edge_prob": 0.636
+      },
+      {
+        "source": "Volatility",
+        "target": "Volume",
+        "mean_effect": 0.05307442227720328,
+        "edge_prob": 0.618
+      },
+      {
+        "source": "Reversal",
+        "target": "LongReversal",
+        "mean_effect": -0.029647390624178618,
+        "edge_prob": 0.59
+      },
+      {
+        "source": "Reversal",
+        "target": "Entropy",
+        "mean_effect": 0.029013967390069166,
+        "edge_prob": 0.586
+      },
+      {
+        "source": "Reversal",
+        "target": "Returns",
+        "mean_effect": 0.2405063332399007,
+        "edge_prob": 0.564
+      },
+      {
+        "source": "Momentum",
+        "target": "LongReversal",
+        "mean_effect": 0.05862689478550632,
+        "edge_prob": 0.55
+      },
+      {
+        "source": "Momentum",
+        "target": "Entropy",
+        "mean_effect": -0.059552591315196524,
+        "edge_prob": 0.51
+      }
+    ],
+    "tie_rate_log_returns": 0.00038560411311053987,
+    "diffs_applied": {
+      "Returns": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volatility": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Momentum": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Reversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "LongReversal": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Liquidity": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Volume": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "Entropy": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      },
+      "FutureReturn": {
+        "method": "none",
+        "d": 0.0,
+        "n_diffs": 0
+      }
+    },
+    "bootstrap_params": {
+      "n_boot": 500,
+      "block_size": 30,
+      "edge_threshold": 0.01
+    },
+    "error_independence": {
+      "n_pairs": 36,
+      "n_independent": 3,
+      "fraction_independent": 0.08333333333333333
+    },
+    "citation": "L\u00f3pez de Prado & Zoonekynd (2024), JPM",
+    "tradition": "Causal factor investing (Barra USE4L adapted)",
+    "size": 8,
+    "entropy_disconnected": false
+  },
+  "e4_summary": {
+    "n_subsets": 3,
+    "pe_disconnected_count": 3,
+    "wpe_disconnected_count": 0,
+    "pre_registered_threshold": 2,
+    "pe_verdict": "ROBUST",
+    "wpe_verdict": "FRAGILE"
+  },
+  "e5_grid": {
+    "A_bollerslev__SPY": {
+      "pe_disconnected": true,
+      "wpe_disconnected": false,
+      "pe_entropy_edges": [],
+      "wpe_entropy_edges": [
+        {
+          "source": "Entropy",
+          "target": "VIX",
+          "mean_effect": 0.02794141468428796,
+          "edge_prob": 0.756
+        }
+      ],
+      "pe_future_causes": [
+        "Returns"
+      ],
+      "wpe_future_causes": [
+        "Returns"
+      ],
+      "pe_n_obs": 8034,
+      "wpe_n_obs": 8034,
+      "size": 4,
+      "citation": "Bollerslev, Patton & Quaedvlieg (2020), JFE"
+    },
+    "A_bollerslev__QQQ": {
+      "pe_disconnected": true,
+      "wpe_disconnected": true,
+      "pe_entropy_edges": [],
+      "wpe_entropy_edges": [],
+      "pe_future_causes": [
+        "Returns"
+      ],
+      "wpe_future_causes": [
+        "Returns"
+      ],
+      "pe_n_obs": 6492,
+      "wpe_n_obs": 6492,
+      "size": 4,
+      "citation": "Bollerslev, Patton & Quaedvlieg (2020), JFE"
+    },
+    "A_bollerslev__IWM": {
+      "pe_disconnected": true,
+      "wpe_disconnected": true,
+      "pe_entropy_edges": [],
+      "wpe_entropy_edges": [],
+      "pe_future_causes": [
+        "Returns"
+      ],
+      "wpe_future_causes": [
+        "Returns"
+      ],
+      "pe_n_obs": 6184,
+      "wpe_n_obs": 6184,
+      "size": 4,
+      "citation": "Bollerslev, Patton & Quaedvlieg (2020), JFE"
+    },
+    "A_bollerslev__DIA": {
+      "pe_disconnected": true,
+      "wpe_disconnected": false,
+      "pe_entropy_edges": [],
+      "wpe_entropy_edges": [
+        {
+          "source": "Entropy",
+          "target": "VIX",
+          "mean_effect": 0.017037219539775952,
+          "edge_prob": 0.518
+        }
+      ],
+      "pe_future_causes": [
+        "Returns"
+      ],
+      "wpe_future_causes": [
+        "Returns"
+      ],
+      "pe_n_obs": 6778,
+      "wpe_n_obs": 6778,
+      "size": 4,
+      "citation": "Bollerslev, Patton & Quaedvlieg (2020), JFE"
+    },
+    "B_kelly__SPY": {
+      "pe_disconnected": true,
+      "wpe_disconnected": false,
+      "pe_entropy_edges": [],
+      "wpe_entropy_edges": [
+        {
+          "source": "Reversal",
+          "target": "Entropy",
+          "mean_effect": 0.03466700866099307,
+          "edge_prob": 0.67
+        },
+        {
+          "source": "Momentum",
+          "target": "Entropy",
+          "mean_effect": -0.06289997935092713,
+          "edge_prob": 0.564
+        }
+      ],
+      "pe_future_causes": [
+        "Returns",
+        "Reversal"
+      ],
+      "wpe_future_causes": [
+        "Returns",
+        "Reversal"
+      ],
+      "pe_n_obs": 7647,
+      "wpe_n_obs": 7647,
+      "size": 6,
+      "citation": "Gu, Kelly & Xiu (2020), RFS"
+    },
+    "B_kelly__QQQ": {
+      "pe_disconnected": false,
+      "wpe_disconnected": true,
+      "pe_entropy_edges": [
+        {
+          "source": "Entropy",
+          "target": "Momentum",
+          "mean_effect": 0.04000719928318358,
+          "edge_prob": 0.592
+        },
+        {
+          "source": "Entropy",
+          "target": "Volatility",
+          "mean_effect": 0.025616011701022075,
+          "edge_prob": 0.504
+        }
+      ],
+      "wpe_entropy_edges": [],
+      "pe_future_causes": [],
+      "wpe_future_causes": [],
+      "pe_n_obs": 6492,
+      "wpe_n_obs": 6492,
+      "size": 6,
+      "citation": "Gu, Kelly & Xiu (2020), RFS"
+    },
+    "B_kelly__IWM": {
+      "pe_disconnected": false,
+      "wpe_disconnected": false,
+      "pe_entropy_edges": [
+        {
+          "source": "Entropy",
+          "target": "Momentum",
+          "mean_effect": -0.04022107103453832,
+          "edge_prob": 0.544
+        },
+        {
+          "source": "Volatility",
+          "target": "Entropy",
+          "mean_effect": -0.03942489203280481,
+          "edge_prob": 0.54
+        }
+      ],
+      "wpe_entropy_edges": [
+        {
+          "source": "Entropy",
+          "target": "Momentum",
+          "mean_effect": -0.07258936971600527,
+          "edge_prob": 0.814
+        }
+      ],
+      "pe_future_causes": [
+        "Returns"
+      ],
+      "wpe_future_causes": [
+        "Returns"
+      ],
+      "pe_n_obs": 6184,
+      "wpe_n_obs": 6184,
+      "size": 6,
+      "citation": "Gu, Kelly & Xiu (2020), RFS"
+    },
+    "B_kelly__DIA": {
+      "pe_disconnected": false,
+      "wpe_disconnected": false,
+      "pe_entropy_edges": [
+        {
+          "source": "Entropy",
+          "target": "Volume",
+          "mean_effect": -0.05820328775703625,
+          "edge_prob": 0.846
+        }
+      ],
+      "wpe_entropy_edges": [
+        {
+          "source": "Entropy",
+          "target": "Volume",
+          "mean_effect": -0.0550680177085232,
+          "edge_prob": 0.746
+        }
+      ],
+      "pe_future_causes": [
+        "Returns"
+      ],
+      "wpe_future_causes": [
+        "Returns"
+      ],
+      "pe_n_obs": 6778,
+      "wpe_n_obs": 6778,
+      "size": 6,
+      "citation": "Gu, Kelly & Xiu (2020), RFS"
+    },
+    "C_lopezdeprado__SPY": {
+      "pe_disconnected": true,
+      "wpe_disconnected": false,
+      "pe_entropy_edges": [],
+      "wpe_entropy_edges": [
+        {
+          "source": "Reversal",
+          "target": "Entropy",
+          "mean_effect": 0.029013967390069166,
+          "edge_prob": 0.586
+        },
+        {
+          "source": "Momentum",
+          "target": "Entropy",
+          "mean_effect": -0.059552591315196524,
+          "edge_prob": 0.51
+        }
+      ],
+      "pe_future_causes": [
+        "Returns"
+      ],
+      "wpe_future_causes": [
+        "Returns"
+      ],
+      "pe_n_obs": 7782,
+      "wpe_n_obs": 7782,
+      "size": 8,
+      "citation": "L\u00f3pez de Prado & Zoonekynd (2024), JPM"
+    },
+    "C_lopezdeprado__QQQ": {
+      "pe_disconnected": true,
+      "wpe_disconnected": true,
+      "pe_entropy_edges": [],
+      "wpe_entropy_edges": [],
+      "pe_future_causes": [],
+      "wpe_future_causes": [],
+      "pe_n_obs": 6240,
+      "wpe_n_obs": 6240,
+      "size": 8,
+      "citation": "L\u00f3pez de Prado & Zoonekynd (2024), JPM"
+    },
+    "C_lopezdeprado__IWM": {
+      "pe_disconnected": false,
+      "wpe_disconnected": false,
+      "pe_entropy_edges": [
+        {
+          "source": "Entropy",
+          "target": "Momentum",
+          "mean_effect": -0.05110335371253284,
+          "edge_prob": 0.682
+        },
+        {
+          "source": "Entropy",
+          "target": "LongReversal",
+          "mean_effect": -0.04276240641015551,
+          "edge_prob": 0.588
+        }
+      ],
+      "wpe_entropy_edges": [
+        {
+          "source": "Entropy",
+          "target": "Momentum",
+          "mean_effect": -0.05397252849496426,
+          "edge_prob": 0.65
+        },
+        {
+          "source": "Liquidity",
+          "target": "Entropy",
+          "mean_effect": 0.02968020792900952,
+          "edge_prob": 0.52
+        }
+      ],
+      "pe_future_causes": [
+        "Returns"
+      ],
+      "wpe_future_causes": [
+        "Returns"
+      ],
+      "pe_n_obs": 5932,
+      "wpe_n_obs": 5932,
+      "size": 8,
+      "citation": "L\u00f3pez de Prado & Zoonekynd (2024), JPM"
+    },
+    "C_lopezdeprado__DIA": {
+      "pe_disconnected": false,
+      "wpe_disconnected": false,
+      "pe_entropy_edges": [
+        {
+          "source": "Entropy",
+          "target": "Volume",
+          "mean_effect": -0.0341513241697047,
+          "edge_prob": 0.662
+        },
+        {
+          "source": "Liquidity",
+          "target": "Entropy",
+          "mean_effect": 0.040140577443204914,
+          "edge_prob": 0.596
+        }
+      ],
+      "wpe_entropy_edges": [
+        {
+          "source": "Liquidity",
+          "target": "Entropy",
+          "mean_effect": 0.09258706760624255,
+          "edge_prob": 0.854
+        },
+        {
+          "source": "LongReversal",
+          "target": "Entropy",
+          "mean_effect": -0.04510568849193008,
+          "edge_prob": 0.556
+        }
+      ],
+      "pe_future_causes": [
+        "Returns"
+      ],
+      "wpe_future_causes": [
+        "Returns"
+      ],
+      "pe_n_obs": 6526,
+      "wpe_n_obs": 6526,
+      "size": 8,
+      "citation": "L\u00f3pez de Prado & Zoonekynd (2024), JPM"
+    }
+  },
+  "e5_summary": {
+    "n_per_variant": 12,
+    "n_total": 24,
+    "pe_disconnected_count": 7,
+    "wpe_disconnected_count": 4,
+    "pre_registered_threshold": 10,
+    "pe_verdict": "FRAGILE",
+    "wpe_verdict": "FRAGILE"
+  },
+  "sensitivity_pe": [
+    {
+      "label": "m=3, tau=1, w=20",
+      "causal_order": [
+        "Liquidity",
+        "Reversal",
+        "Entropy",
+        "Volatility",
+        "Volume",
+        "Returns",
+        "Momentum"
+      ],
+      "n_obs": 7648
+    },
+    {
+      "label": "m=3, tau=1, w=60",
+      "causal_order": [
+        "Liquidity",
+        "Reversal",
+        "Volatility",
+        "Volume",
+        "Returns",
+        "Momentum",
+        "Entropy"
+      ],
+      "n_obs": 7648
+    },
+    {
+      "label": "m=4, tau=1, w=120",
+      "causal_order": [
+        "Liquidity",
+        "Reversal",
+        "Volatility",
+        "Volume",
+        "Returns",
+        "Momentum",
+        "Entropy"
+      ],
+      "n_obs": 7648
+    }
+  ],
+  "sensitivity_block_size": [
+    {
+      "block_size": 15,
+      "causal_order": [
+        "Liquidity",
+        "Reversal",
+        "Entropy",
+        "Volatility",
+        "Volume",
+        "Returns",
+        "Momentum"
+      ],
+      "n_obs": 7648,
+      "n_robust_edges": 11,
+      "robust_edges": [
+        {
+          "source": "Liquidity",
+          "target": "Momentum",
+          "mean_effect": 0.18649337496043725,
+          "edge_prob": 1.0
+        },
+        {
+          "source": "Liquidity",
+          "target": "Volume",
+          "mean_effect": -0.32696792346133347,
+          "edge_prob": 1.0
+        },
+        {
+          "source": "Reversal",
+          "target": "Volume",
+          "mean_effect": -0.2500947915604839,
+          "edge_prob": 0.998
+        },
+        {
+          "source": "Reversal",
+          "target": "Momentum",
+          "mean_effect": 0.10162231342200108,
+          "edge_prob": 0.832
+        },
+        {
+          "source": "Volatility",
+          "target": "Volume",
+          "mean_effect": 0.05714246385042993,
+          "edge_prob": 0.828
+        },
+        {
+          "source": "Liquidity",
+          "target": "Volatility",
+          "mean_effect": -0.04211325953791348,
+          "edge_prob": 0.812
+        },
+        {
+          "source": "Liquidity",
+          "target": "Entropy",
+          "mean_effect": -0.0640449917487669,
+          "edge_prob": 0.68
+        },
+        {
+          "source": "Reversal",
+          "target": "Returns",
+          "mean_effect": 0.2588775681802275,
+          "edge_prob": 0.622
+        },
+        {
+          "source": "Volatility",
+          "target": "Momentum",
+          "mean_effect": -0.32020664541109967,
+          "edge_prob": 0.616
+        },
+        {
+          "source": "Reversal",
+          "target": "Volatility",
+          "mean_effect": -0.03189768852701287,
+          "edge_prob": 0.564
+        },
+        {
+          "source": "Returns",
+          "target": "Volume",
+          "mean_effect": -0.03268884041943158,
+          "edge_prob": 0.534
+        }
+      ]
+    },
+    {
+      "block_size": 30,
+      "causal_order": [
+        "Liquidity",
+        "Reversal",
+        "Entropy",
+        "Volatility",
+        "Volume",
+        "Returns",
+        "Momentum"
+      ],
+      "n_obs": 7648,
+      "n_robust_edges": 11,
+      "robust_edges": [
+        {
+          "source": "Liquidity",
+          "target": "Momentum",
+          "mean_effect": 0.20053199888663217,
+          "edge_prob": 1.0
+        },
+        {
+          "source": "Liquidity",
+          "target": "Volume",
+          "mean_effect": -0.33910584730394566,
+          "edge_prob": 1.0
+        },
+        {
+          "source": "Reversal",
+          "target": "Volume",
+          "mean_effect": -0.247295917357849,
+          "edge_prob": 0.996
+        },
+        {
+          "source": "Reversal",
+          "target": "Momentum",
+          "mean_effect": 0.1082051909755213,
+          "edge_prob": 0.892
+        },
+        {
+          "source": "Volatility",
+          "target": "Volume",
+          "mean_effect": 0.056789040042739714,
+          "edge_prob": 0.806
+        },
+        {
+          "source": "Liquidity",
+          "target": "Volatility",
+          "mean_effect": -0.026186269122653448,
+          "edge_prob": 0.778
+        },
+        {
+          "source": "Liquidity",
+          "target": "Entropy",
+          "mean_effect": -0.07024700980824908,
+          "edge_prob": 0.692
+        },
+        {
+          "source": "Reversal",
+          "target": "Returns",
+          "mean_effect": 0.2620282073168352,
+          "edge_prob": 0.628
+        },
+        {
+          "source": "Reversal",
+          "target": "Volatility",
+          "mean_effect": -0.026886442147979705,
+          "edge_prob": 0.612
+        },
+        {
+          "source": "Returns",
+          "target": "Volume",
+          "mean_effect": -0.03519524077834507,
+          "edge_prob": 0.558
+        },
+        {
+          "source": "Volatility",
+          "target": "Momentum",
+          "mean_effect": -0.28342801197693646,
+          "edge_prob": 0.546
+        }
+      ]
+    },
+    {
+      "block_size": 60,
+      "causal_order": [
+        "Liquidity",
+        "Reversal",
+        "Entropy",
+        "Volatility",
+        "Volume",
+        "Returns",
+        "Momentum"
+      ],
+      "n_obs": 7648,
+      "n_robust_edges": 11,
+      "robust_edges": [
+        {
+          "source": "Reversal",
+          "target": "Volume",
+          "mean_effect": -0.24690503607637487,
+          "edge_prob": 1.0
+        },
+        {
+          "source": "Liquidity",
+          "target": "Volume",
+          "mean_effect": -0.3658330687232701,
+          "edge_prob": 1.0
+        },
+        {
+          "source": "Liquidity",
+          "target": "Momentum",
+          "mean_effect": 0.22021491961419057,
+          "edge_prob": 0.998
+        },
+        {
+          "source": "Reversal",
+          "target": "Momentum",
+          "mean_effect": 0.10998643664087726,
+          "edge_prob": 0.908
+        },
+        {
+          "source": "Volatility",
+          "target": "Volume",
+          "mean_effect": 0.06146419300451154,
+          "edge_prob": 0.832
+        },
+        {
+          "source": "Liquidity",
+          "target": "Entropy",
+          "mean_effect": -0.08294986447010251,
+          "edge_prob": 0.79
+        },
+        {
+          "source": "Liquidity",
+          "target": "Volatility",
+          "mean_effect": -0.012831477832969201,
+          "edge_prob": 0.758
+        },
+        {
+          "source": "Reversal",
+          "target": "Volatility",
+          "mean_effect": -0.024970349491821864,
+          "edge_prob": 0.652
+        },
+        {
+          "source": "Reversal",
+          "target": "Returns",
+          "mean_effect": 0.25611066172379865,
+          "edge_prob": 0.612
+        },
+        {
+          "source": "Returns",
+          "target": "Volume",
+          "mean_effect": -0.03656639334697712,
+          "edge_prob": 0.584
+        },
+        {
+          "source": "Volatility",
+          "target": "Momentum",
+          "mean_effect": -0.28354682977702006,
+          "edge_prob": 0.556
+        }
+      ]
+    },
+    {
+      "block_size": 90,
+      "causal_order": [
+        "Liquidity",
+        "Reversal",
+        "Entropy",
+        "Volatility",
+        "Volume",
+        "Returns",
+        "Momentum"
+      ],
+      "n_obs": 7648,
+      "n_robust_edges": 11,
+      "robust_edges": [
+        {
+          "source": "Liquidity",
+          "target": "Momentum",
+          "mean_effect": 0.2488937727454605,
+          "edge_prob": 0.998
+        },
+        {
+          "source": "Liquidity",
+          "target": "Volume",
+          "mean_effect": -0.4026676124662962,
+          "edge_prob": 0.998
+        },
+        {
+          "source": "Reversal",
+          "target": "Volume",
+          "mean_effect": -0.24715050047488113,
+          "edge_prob": 0.996
+        },
+        {
+          "source": "Reversal",
+          "target": "Momentum",
+          "mean_effect": 0.10905767890306041,
+          "edge_prob": 0.916
+        },
+        {
+          "source": "Liquidity",
+          "target": "Entropy",
+          "mean_effect": -0.07211348549456172,
+          "edge_prob": 0.806
+        },
+        {
+          "source": "Volatility",
+          "target": "Volume",
+          "mean_effect": 0.06059568030989628,
+          "edge_prob": 0.788
+        },
+        {
+          "source": "Liquidity",
+          "target": "Volatility",
+          "mean_effect": 0.013816970316626724,
+          "edge_prob": 0.77
+        },
+        {
+          "source": "Reversal",
+          "target": "Volatility",
+          "mean_effect": -0.03026212827734699,
+          "edge_prob": 0.698
+        },
+        {
+          "source": "Reversal",
+          "target": "Returns",
+          "mean_effect": 0.2607504801368517,
+          "edge_prob": 0.622
+        },
+        {
+          "source": "Returns",
+          "target": "Volume",
+          "mean_effect": -0.03698606040704254,
+          "edge_prob": 0.586
+        },
+        {
+          "source": "Volatility",
+          "target": "Momentum",
+          "mean_effect": -0.2866335840525162,
+          "edge_prob": 0.552
+        }
+      ]
+    }
+  ],
+  "sensitivity_block_robust_in_all": {
+    "Reversal -> Returns": [
+      0.622,
+      0.628,
+      0.612,
+      0.622
+    ],
+    "Liquidity -> Entropy": [
+      0.68,
+      0.692,
+      0.79,
+      0.806
+    ],
+    "Reversal -> Momentum": [
+      0.832,
+      0.892,
+      0.908,
+      0.916
+    ],
+    "Volatility -> Momentum": [
+      0.616,
+      0.546,
+      0.556,
+      0.552
+    ],
+    "Liquidity -> Momentum": [
+      1.0,
+      1.0,
+      0.998,
+      0.998
+    ],
+    "Reversal -> Volatility": [
+      0.564,
+      0.612,
+      0.652,
+      0.698
+    ],
+    "Liquidity -> Volatility": [
+      0.812,
+      0.778,
+      0.758,
+      0.77
+    ],
+    "Returns -> Volume": [
+      0.534,
+      0.558,
+      0.584,
+      0.586
+    ],
+    "Reversal -> Volume": [
+      0.998,
+      0.996,
+      1.0,
+      0.996
+    ],
+    "Volatility -> Volume": [
+      0.828,
+      0.806,
+      0.832,
+      0.788
+    ],
+    "Liquidity -> Volume": [
+      1.0,
+      1.0,
+      1.0,
+      0.998
+    ]
+  }
+}

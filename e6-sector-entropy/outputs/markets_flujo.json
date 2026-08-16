@@ -1,0 +1,30 @@
+{
+  "corr_media_dpe": {
+    "media": 0.004,
+    "rango": [
+      -0.079,
+      0.112
+    ]
+  },
+  "corr_media_retornos": {
+    "media": 0.517,
+    "rango": [
+      0.216,
+      0.791
+    ]
+  },
+  "asimetria_lag1": {
+    "us_a_otros": -0.028,
+    "otros_a_us": -0.016,
+    "detalle_us_a_otros": {
+      "Japón": -0.083,
+      "Reino Unido": -0.031,
+      "Hong Kong": -0.015,
+      "Alemania": 0.011,
+      "Australia": 0.045,
+      "Brasil": 0.016,
+      "China": -0.075,
+      "India": -0.089
+    }
+  }
+}

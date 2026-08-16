@@ -1,0 +1,149 @@
+{
+  "spearman_consecutivo_promedio": 0.187,
+  "spearman_consecutivo_rango": [
+    -0.5,
+    0.783
+  ],
+  "spearman_detalle": [
+    {
+      "years": "2000-2001",
+      "rho": -0.167
+    },
+    {
+      "years": "2001-2002",
+      "rho": -0.233
+    },
+    {
+      "years": "2002-2003",
+      "rho": 0.783
+    },
+    {
+      "years": "2003-2004",
+      "rho": 0.117
+    },
+    {
+      "years": "2004-2005",
+      "rho": -0.117
+    },
+    {
+      "years": "2005-2006",
+      "rho": 0.267
+    },
+    {
+      "years": "2006-2007",
+      "rho": 0.567
+    },
+    {
+      "years": "2007-2008",
+      "rho": 0.033
+    },
+    {
+      "years": "2008-2009",
+      "rho": -0.083
+    },
+    {
+      "years": "2009-2010",
+      "rho": 0.433
+    },
+    {
+      "years": "2010-2011",
+      "rho": -0.5
+    },
+    {
+      "years": "2011-2012",
+      "rho": -0.067
+    },
+    {
+      "years": "2012-2013",
+      "rho": 0.333
+    },
+    {
+      "years": "2013-2014",
+      "rho": 0.133
+    },
+    {
+      "years": "2014-2015",
+      "rho": 0.433
+    },
+    {
+      "years": "2015-2016",
+      "rho": 0.767
+    },
+    {
+      "years": "2016-2017",
+      "rho": 0.017
+    },
+    {
+      "years": "2017-2018",
+      "rho": 0.667
+    },
+    {
+      "years": "2018-2019",
+      "rho": -0.133
+    },
+    {
+      "years": "2019-2020",
+      "rho": 0.25
+    },
+    {
+      "years": "2020-2021",
+      "rho": 0.417
+    },
+    {
+      "years": "2021-2022",
+      "rho": 0.25
+    },
+    {
+      "years": "2022-2023",
+      "rho": -0.267
+    },
+    {
+      "years": "2023-2024",
+      "rho": 0.383
+    },
+    {
+      "years": "2024-2025",
+      "rho": 0.4
+    }
+  ],
+  "permanencia_ultimo_puesto": 0.16,
+  "permanencia_azar": 0.111,
+  "ultimo_puesto_por_anio": {
+    "2000": "Hong Kong",
+    "2001": "India",
+    "2002": "India",
+    "2003": "Estados Unidos",
+    "2004": "Reino Unido",
+    "2005": "Alemania",
+    "2006": "Estados Unidos",
+    "2007": "Japón",
+    "2008": "Estados Unidos",
+    "2009": "Hong Kong",
+    "2010": "Estados Unidos",
+    "2011": "Australia",
+    "2012": "Estados Unidos",
+    "2013": "Reino Unido",
+    "2014": "China",
+    "2015": "India",
+    "2016": "India",
+    "2017": "Japón",
+    "2018": "Estados Unidos",
+    "2019": "Estados Unidos",
+    "2020": "India",
+    "2021": "Australia",
+    "2022": "Reino Unido",
+    "2023": "Japón",
+    "2024": "Estados Unidos",
+    "2025": "Estados Unidos"
+  },
+  "veces_ultimo_puesto": {
+    "Estados Unidos": 9,
+    "India": 5,
+    "Reino Unido": 3,
+    "Japón": 3,
+    "Hong Kong": 2,
+    "Australia": 2,
+    "Alemania": 1,
+    "China": 1
+  }
+}

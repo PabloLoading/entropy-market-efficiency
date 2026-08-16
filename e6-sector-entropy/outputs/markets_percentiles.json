@@ -1,0 +1,413 @@
+{
+  "w140": {
+    "us": {
+      "sector": "Estados Unidos",
+      "anios": 26,
+      "percentil_promedio": 0.355,
+      "ci95": [
+        0.261,
+        0.449
+      ],
+      "confianza_direccional": 0.998,
+      "senal": "ineficiente (significativo al 99%)",
+      "veces_ultimo": 6,
+      "p_binomial_ultimos": 0.061
+    },
+    "japon": {
+      "sector": "Japón",
+      "anios": 26,
+      "percentil_promedio": 0.474,
+      "ci95": [
+        0.359,
+        0.59
+      ],
+      "confianza_direccional": 0.668,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.801
+    },
+    "uk": {
+      "sector": "Reino Unido",
+      "anios": 26,
+      "percentil_promedio": 0.491,
+      "ci95": [
+        0.393,
+        0.585
+      ],
+      "confianza_direccional": 0.585,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.801
+    },
+    "hongkong": {
+      "sector": "Hong Kong",
+      "anios": 26,
+      "percentil_promedio": 0.479,
+      "ci95": [
+        0.397,
+        0.56
+      ],
+      "confianza_direccional": 0.709,
+      "senal": "sin señal formal",
+      "veces_ultimo": 0,
+      "p_binomial_ultimos": 1.0
+    },
+    "alemania": {
+      "sector": "Alemania",
+      "anios": 26,
+      "percentil_promedio": 0.526,
+      "ci95": [
+        0.423,
+        0.632
+      ],
+      "confianza_direccional": 0.682,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.801
+    },
+    "australia": {
+      "sector": "Australia",
+      "anios": 26,
+      "percentil_promedio": 0.53,
+      "ci95": [
+        0.402,
+        0.654
+      ],
+      "confianza_direccional": 0.688,
+      "senal": "sin señal formal",
+      "veces_ultimo": 4,
+      "p_binomial_ultimos": 0.326
+    },
+    "brasil": {
+      "sector": "Brasil",
+      "anios": 26,
+      "percentil_promedio": 0.662,
+      "ci95": [
+        0.551,
+        0.765
+      ],
+      "confianza_direccional": 0.998,
+      "senal": "eficiente (significativo al 99%)",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.953
+    },
+    "china": {
+      "sector": "China",
+      "anios": 26,
+      "percentil_promedio": 0.5,
+      "ci95": [
+        0.397,
+        0.598
+      ],
+      "confianza_direccional": 0.52,
+      "senal": "sin señal formal",
+      "veces_ultimo": 3,
+      "p_binomial_ultimos": 0.564
+    },
+    "india": {
+      "sector": "India",
+      "anios": 26,
+      "percentil_promedio": 0.483,
+      "ci95": [
+        0.363,
+        0.603
+      ],
+      "confianza_direccional": 0.63,
+      "senal": "sin señal formal",
+      "veces_ultimo": 6,
+      "p_binomial_ultimos": 0.061
+    }
+  },
+  "w252": {
+    "us": {
+      "sector": "Estados Unidos",
+      "anios": 26,
+      "percentil_promedio": 0.303,
+      "ci95": [
+        0.209,
+        0.406
+      ],
+      "confianza_direccional": 1.0,
+      "senal": "ineficiente (significativo al 99%)",
+      "veces_ultimo": 9,
+      "p_binomial_ultimos": 0.001,
+      "mann_kendall": {
+        "tau": -0.083,
+        "p": 0.5702,
+        "tendencia": "sin tendencia"
+      },
+      "pe_estatica_m6": 0.9879
+    },
+    "japon": {
+      "sector": "Japón",
+      "anios": 26,
+      "percentil_promedio": 0.496,
+      "ci95": [
+        0.385,
+        0.607
+      ],
+      "confianza_direccional": 0.541,
+      "senal": "sin señal formal",
+      "veces_ultimo": 3,
+      "p_binomial_ultimos": 0.564,
+      "mann_kendall": {
+        "tau": -0.114,
+        "p": 0.4313,
+        "tendencia": "sin tendencia"
+      },
+      "pe_estatica_m6": 0.9908
+    },
+    "uk": {
+      "sector": "Reino Unido",
+      "anios": 26,
+      "percentil_promedio": 0.449,
+      "ci95": [
+        0.359,
+        0.538
+      ],
+      "confianza_direccional": 0.873,
+      "senal": "sin señal formal",
+      "veces_ultimo": 3,
+      "p_binomial_ultimos": 0.564,
+      "mann_kendall": {
+        "tau": -0.237,
+        "p": 0.0941,
+        "tendencia": "sin tendencia"
+      },
+      "pe_estatica_m6": 0.9908
+    },
+    "hongkong": {
+      "sector": "Hong Kong",
+      "anios": 26,
+      "percentil_promedio": 0.526,
+      "ci95": [
+        0.423,
+        0.624
+      ],
+      "confianza_direccional": 0.692,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.801,
+      "mann_kendall": {
+        "tau": 0.003,
+        "p": 1.0,
+        "tendencia": "sin tendencia"
+      },
+      "pe_estatica_m6": 0.9903
+    },
+    "alemania": {
+      "sector": "Alemania",
+      "anios": 26,
+      "percentil_promedio": 0.594,
+      "ci95": [
+        0.504,
+        0.684
+      ],
+      "confianza_direccional": 0.98,
+      "senal": "eficiente (significativo al 95%)",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.953,
+      "mann_kendall": {
+        "tau": -0.022,
+        "p": 0.8959,
+        "tendencia": "sin tendencia"
+      },
+      "pe_estatica_m6": 0.9902
+    },
+    "australia": {
+      "sector": "Australia",
+      "anios": 26,
+      "percentil_promedio": 0.543,
+      "ci95": [
+        0.419,
+        0.667
+      ],
+      "confianza_direccional": 0.75,
+      "senal": "sin señal formal",
+      "veces_ultimo": 2,
+      "p_binomial_ultimos": 0.801,
+      "mann_kendall": {
+        "tau": -0.243,
+        "p": 0.0856,
+        "tendencia": "sin tendencia"
+      },
+      "pe_estatica_m6": 0.9919
+    },
+    "brasil": {
+      "sector": "Brasil",
+      "anios": 26,
+      "percentil_promedio": 0.662,
+      "ci95": [
+        0.551,
+        0.765
+      ],
+      "confianza_direccional": 0.997,
+      "senal": "eficiente (significativo al 99%)",
+      "veces_ultimo": 0,
+      "p_binomial_ultimos": 1.0,
+      "mann_kendall": {
+        "tau": -0.231,
+        "p": 0.1033,
+        "tendencia": "sin tendencia"
+      },
+      "pe_estatica_m6": 0.9908
+    },
+    "china": {
+      "sector": "China",
+      "anios": 26,
+      "percentil_promedio": 0.504,
+      "ci95": [
+        0.406,
+        0.603
+      ],
+      "confianza_direccional": 0.511,
+      "senal": "sin señal formal",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.953,
+      "mann_kendall": {
+        "tau": -0.108,
+        "p": 0.4574,
+        "tendencia": "sin tendencia"
+      },
+      "pe_estatica_m6": 0.988
+    },
+    "india": {
+      "sector": "India",
+      "anios": 26,
+      "percentil_promedio": 0.423,
+      "ci95": [
+        0.312,
+        0.534
+      ],
+      "confianza_direccional": 0.917,
+      "senal": "sin señal formal",
+      "veces_ultimo": 5,
+      "p_binomial_ultimos": 0.155,
+      "mann_kendall": {
+        "tau": -0.009,
+        "p": 0.9652,
+        "tendencia": "sin tendencia"
+      },
+      "pe_estatica_m6": 0.9877
+    }
+  },
+  "w504": {
+    "us": {
+      "sector": "Estados Unidos",
+      "anios": 26,
+      "percentil_promedio": 0.308,
+      "ci95": [
+        0.205,
+        0.415
+      ],
+      "confianza_direccional": 1.0,
+      "senal": "ineficiente (significativo al 99%)",
+      "veces_ultimo": 8,
+      "p_binomial_ultimos": 0.006
+    },
+    "japon": {
+      "sector": "Japón",
+      "anios": 26,
+      "percentil_promedio": 0.564,
+      "ci95": [
+        0.44,
+        0.68
+      ],
+      "confianza_direccional": 0.83,
+      "senal": "sin señal formal",
+      "veces_ultimo": 4,
+      "p_binomial_ultimos": 0.326
+    },
+    "uk": {
+      "sector": "Reino Unido",
+      "anios": 26,
+      "percentil_promedio": 0.449,
+      "ci95": [
+        0.35,
+        0.547
+      ],
+      "confianza_direccional": 0.851,
+      "senal": "sin señal formal",
+      "veces_ultimo": 4,
+      "p_binomial_ultimos": 0.326
+    },
+    "hongkong": {
+      "sector": "Hong Kong",
+      "anios": 26,
+      "percentil_promedio": 0.547,
+      "ci95": [
+        0.453,
+        0.641
+      ],
+      "confianza_direccional": 0.831,
+      "senal": "sin señal formal",
+      "veces_ultimo": 0,
+      "p_binomial_ultimos": 1.0
+    },
+    "alemania": {
+      "sector": "Alemania",
+      "anios": 26,
+      "percentil_promedio": 0.59,
+      "ci95": [
+        0.5,
+        0.675
+      ],
+      "confianza_direccional": 0.975,
+      "senal": "eficiente (significativo al 90%)",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.953
+    },
+    "australia": {
+      "sector": "Australia",
+      "anios": 26,
+      "percentil_promedio": 0.577,
+      "ci95": [
+        0.466,
+        0.684
+      ],
+      "confianza_direccional": 0.915,
+      "senal": "sin señal formal",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.953
+    },
+    "brasil": {
+      "sector": "Brasil",
+      "anios": 26,
+      "percentil_promedio": 0.671,
+      "ci95": [
+        0.564,
+        0.765
+      ],
+      "confianza_direccional": 0.998,
+      "senal": "eficiente (significativo al 99%)",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.953
+    },
+    "china": {
+      "sector": "China",
+      "anios": 26,
+      "percentil_promedio": 0.474,
+      "ci95": [
+        0.38,
+        0.568
+      ],
+      "confianza_direccional": 0.722,
+      "senal": "sin señal formal",
+      "veces_ultimo": 1,
+      "p_binomial_ultimos": 0.953
+    },
+    "india": {
+      "sector": "India",
+      "anios": 26,
+      "percentil_promedio": 0.321,
+      "ci95": [
+        0.235,
+        0.41
+      ],
+      "confianza_direccional": 1.0,
+      "senal": "ineficiente (significativo al 99%)",
+      "veces_ultimo": 6,
+      "p_binomial_ultimos": 0.061
+    }
+  }
+}

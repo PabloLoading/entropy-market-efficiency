@@ -1,0 +1,20 @@
+# entornos y cache de Python
+.venv/
+__pycache__/
+*.pyc
+.cache/
+.DS_Store
+
+# credenciales y cache local de W&B (solo si se usa el tracking opcional de e4)
+.env
+wandb/
+
+# datos de mercado: se regeneran con los scripts de fetch de cada experimento;
+# el CSV intradiario se descarga de la fuente indicada en los README de e2/e7
+data/
+datasets
+
+# outputs pesados (los livianos: charts, JSON y tablas, sí se versionan)
+**/outputs/models/
+**/outputs/preds/
+e2-entropy-evolution/outputs/e2_5min.csv

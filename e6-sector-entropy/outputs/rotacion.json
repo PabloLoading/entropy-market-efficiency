@@ -1,0 +1,151 @@
+{
+  "spearman_consecutivo_promedio": 0.227,
+  "spearman_consecutivo_rango": [
+    -0.733,
+    0.75
+  ],
+  "spearman_detalle": [
+    {
+      "years": "2000-2001",
+      "rho": 0.45
+    },
+    {
+      "years": "2001-2002",
+      "rho": 0.333
+    },
+    {
+      "years": "2002-2003",
+      "rho": -0.017
+    },
+    {
+      "years": "2003-2004",
+      "rho": 0.75
+    },
+    {
+      "years": "2004-2005",
+      "rho": 0.067
+    },
+    {
+      "years": "2005-2006",
+      "rho": 0.633
+    },
+    {
+      "years": "2006-2007",
+      "rho": 0.233
+    },
+    {
+      "years": "2007-2008",
+      "rho": -0.733
+    },
+    {
+      "years": "2008-2009",
+      "rho": -0.433
+    },
+    {
+      "years": "2009-2010",
+      "rho": 0.533
+    },
+    {
+      "years": "2010-2011",
+      "rho": 0.55
+    },
+    {
+      "years": "2011-2012",
+      "rho": 0.083
+    },
+    {
+      "years": "2012-2013",
+      "rho": 0.517
+    },
+    {
+      "years": "2013-2014",
+      "rho": 0.467
+    },
+    {
+      "years": "2014-2015",
+      "rho": -0.45
+    },
+    {
+      "years": "2015-2016",
+      "rho": 0.567
+    },
+    {
+      "years": "2016-2017",
+      "rho": 0.261
+    },
+    {
+      "years": "2017-2018",
+      "rho": 0.564
+    },
+    {
+      "years": "2018-2019",
+      "rho": 0.152
+    },
+    {
+      "years": "2019-2020",
+      "rho": 0.227
+    },
+    {
+      "years": "2020-2021",
+      "rho": 0.118
+    },
+    {
+      "years": "2021-2022",
+      "rho": -0.109
+    },
+    {
+      "years": "2022-2023",
+      "rho": 0.4
+    },
+    {
+      "years": "2023-2024",
+      "rho": 0.036
+    },
+    {
+      "years": "2024-2025",
+      "rho": 0.473
+    }
+  ],
+  "permanencia_ultimo_puesto": 0.28,
+  "permanencia_azar": 0.104,
+  "ultimo_puesto_por_anio": {
+    "2000": "Industrial",
+    "2001": "Consumo básico",
+    "2002": "Utilities",
+    "2003": "Industrial",
+    "2004": "Salud",
+    "2005": "Tecnología",
+    "2006": "Tecnología",
+    "2007": "Tecnología",
+    "2008": "Consumo básico",
+    "2009": "Financiero",
+    "2010": "Financiero",
+    "2011": "Energía",
+    "2012": "Financiero",
+    "2013": "Materiales",
+    "2014": "Financiero",
+    "2015": "Utilities",
+    "2016": "Utilities",
+    "2017": "Financiero",
+    "2018": "Consumo básico",
+    "2019": "Consumo discrecional",
+    "2020": "Tecnología",
+    "2021": "Salud",
+    "2022": "Real Estate",
+    "2023": "Real Estate",
+    "2024": "Real Estate",
+    "2025": "Real Estate"
+  },
+  "veces_ultimo_puesto": {
+    "Financiero": 5,
+    "Tecnología": 4,
+    "Real Estate": 4,
+    "Consumo básico": 3,
+    "Utilities": 3,
+    "Industrial": 2,
+    "Salud": 2,
+    "Energía": 1,
+    "Materiales": 1,
+    "Consumo discrecional": 1
+  }
+}

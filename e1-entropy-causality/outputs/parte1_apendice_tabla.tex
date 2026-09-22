@@ -6,30 +6,30 @@
     \toprule
     Subset & Índice & Var. & $n_{\text{obs}}$ & Desc. & Causa robusta de FR & Edges robustos de Entropy \\
     \midrule
-    A & SPY & PE & 8034 & \checkmark & Returns & -- \\
-     & SPY & WPE & 8034 & $\times$ & Returns & Entropy$\to$VIX (76\%) \\
-     & QQQ & PE & 6492 & \checkmark & Returns & -- \\
-     & QQQ & WPE & 6492 & \checkmark & Returns & -- \\
-     & IWM & PE & 6184 & \checkmark & Returns & -- \\
-     & IWM & WPE & 6184 & \checkmark & Returns & -- \\
+    A & SPY & PE & 8034 & \ding{55} & Returns & Volatility$\to$Entropy (59\%) \\
+     & SPY & WPE & 8034 & \ding{55} & Returns & Volatility$\to$Entropy (98\%); Entropy$\to$VIX (64\%) \\
+     & QQQ & PE & 6492 & \ding{55} & Returns & Entropy$\to$VIX (73\%) \\
+     & QQQ & WPE & 6492 & \ding{55} & Returns & Volatility$\to$Entropy (93\%); VIX$\to$Entropy (70\%) \\
+     & IWM & PE & 6184 & \ding{55} & Returns & Volatility$\to$Entropy (74\%) \\
+     & IWM & WPE & 6184 & \ding{55} & Returns & Volatility$\to$Entropy (70\%); VIX$\to$Entropy (53\%) \\
+     & DIA & PE & 6778 & \ding{55} & Returns & Entropy$\to$VIX (56\%) \\
+     & DIA & WPE & 6778 & \ding{55} & Returns & Entropy$\to$VIX (94\%); Volatility$\to$Entropy (87\%) \\
+    B & SPY & PE & 7647 & \ding{55} & Returns, Reversal & Volatility$\to$Entropy (72\%) \\
+     & SPY & WPE & 7647 & \ding{55} & Returns, Reversal & Volatility$\to$Entropy (98\%); Entropy$\to$Momentum (59\%); \ldots (1 más) \\
+     & QQQ & PE & 6492 & \ding{55} & -- & Entropy$\to$Volatility (99\%); Entropy$\to$Momentum (61\%) \\
+     & QQQ & WPE & 6492 & \ding{55} & -- & Volatility$\to$Entropy (90\%); Volume$\to$Entropy (82\%); \ldots (1 más) \\
+     & IWM & PE & 6184 & \ding{55} & Returns & Volatility$\to$Entropy (79\%); Volume$\to$Entropy (78\%); \ldots (1 más) \\
+     & IWM & WPE & 6184 & \ding{55} & Returns & Entropy$\to$Momentum (94\%); Volatility$\to$Entropy (91\%) \\
      & DIA & PE & 6778 & \checkmark & Returns & -- \\
-     & DIA & WPE & 6778 & $\times$ & Returns & Entropy$\to$VIX (52\%) \\
-    B & SPY & PE & 7647 & \checkmark & Returns, Reversal & -- \\
-     & SPY & WPE & 7647 & $\times$ & Returns, Reversal & Reversal$\to$Entropy (67\%); Momentum$\to$Entropy (56\%) \\
-     & QQQ & PE & 6492 & $\times$ & -- & Entropy$\to$Momentum (59\%); Entropy$\to$Volatility (50\%) \\
-     & QQQ & WPE & 6492 & \checkmark & -- & -- \\
-     & IWM & PE & 6184 & $\times$ & Returns & Entropy$\to$Momentum (54\%); Volatility$\to$Entropy (54\%) \\
-     & IWM & WPE & 6184 & $\times$ & Returns & Entropy$\to$Momentum (81\%) \\
-     & DIA & PE & 6778 & $\times$ & Returns & Entropy$\to$Volume (85\%) \\
-     & DIA & WPE & 6778 & $\times$ & Returns & Entropy$\to$Volume (75\%) \\
-    C & SPY & PE & 7782 & \checkmark & Returns & -- \\
-     & SPY & WPE & 7782 & $\times$ & Returns & Reversal$\to$Entropy (59\%); Momentum$\to$Entropy (51\%) \\
-     & QQQ & PE & 6240 & \checkmark & -- & -- \\
-     & QQQ & WPE & 6240 & \checkmark & -- & -- \\
-     & IWM & PE & 5932 & $\times$ & Returns & Entropy$\to$Momentum (68\%); Entropy$\to$LongReversal (59\%) \\
-     & IWM & WPE & 5932 & $\times$ & Returns & Entropy$\to$Momentum (65\%); Liquidity$\to$Entropy (52\%) \\
-     & DIA & PE & 6526 & $\times$ & Returns & Entropy$\to$Volume (66\%); Liquidity$\to$Entropy (60\%) \\
-     & DIA & WPE & 6526 & $\times$ & Returns & Liquidity$\to$Entropy (85\%); LongReversal$\to$Entropy (56\%) \\
+     & DIA & WPE & 6778 & \ding{55} & Returns & Volatility$\to$Entropy (85\%); Entropy$\to$Volume (72\%); \ldots (1 más) \\
+    C & SPY & PE & 7782 & \ding{55} & Returns & Liquidity$\to$Entropy (79\%); Volatility$\to$Entropy (69\%) \\
+     & SPY & WPE & 7782 & \ding{55} & Returns & Volatility$\to$Entropy (97\%); Volume$\to$Entropy (65\%); \ldots (3 más) \\
+     & QQQ & PE & 6240 & \ding{55} & -- & Entropy$\to$Volatility (77\%); Entropy$\to$Momentum (68\%); \ldots (3 más) \\
+     & QQQ & WPE & 6240 & \ding{55} & -- & Entropy$\to$Volume (86\%); LongReversal$\to$Entropy (70\%) \\
+     & IWM & PE & 5932 & \ding{55} & Returns & Entropy$\to$Momentum (84\%); Volatility$\to$Entropy (71\%); \ldots (2 más) \\
+     & IWM & WPE & 5932 & \ding{55} & Returns & Volatility$\to$Entropy (92\%); Entropy$\to$Momentum (86\%); \ldots (2 más) \\
+     & DIA & PE & 6526 & \ding{55} & Returns & Liquidity$\to$Entropy (73\%); Entropy$\to$LongReversal (64\%); \ldots (1 más) \\
+     & DIA & WPE & 6526 & \ding{55} & Returns & Volatility$\to$Entropy (86\%); Liquidity$\to$Entropy (76\%); \ldots (2 más) \\
     \bottomrule
   \end{tabular}
   \caption{Detalle completo de las 24 configuraciones del sub-experimento E5 (cross-product). 

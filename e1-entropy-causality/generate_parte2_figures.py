@@ -46,6 +46,16 @@ def collect():
 
 def main():
     df = collect()
+
+    # Robust windows per factor, aggregated over assets (Parte II factor table)
+    freq = (df.groupby("factor")["is_robust"]
+              .agg(ventanas_robustas="sum", ventanas_totales="count")
+              .reindex(FACTORS))
+    freq["pct"] = (100 * freq["ventanas_robustas"] / freq["ventanas_totales"]).round(2)
+    freq_out = Path("outputs/parte2_factor_freq.csv")
+    freq.to_csv(freq_out)
+    print(f"Saved: {freq_out}")
+
     # Percentage of robust windows per (asset, factor)
     tab = df.groupby(["asset", "factor"])["is_robust"].mean().unstack() * 100
 

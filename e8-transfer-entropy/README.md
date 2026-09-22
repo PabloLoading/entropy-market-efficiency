@@ -17,8 +17,10 @@ Reutiliza los parquets del experimento e6: **correr antes
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-python run_te.py       # ETE por par, bootstrap, FDR, crisis vs calma, serie anual
-python gen_charts.py   # heatmap de la red, robustez de 9 sectores, crisis, anual
+python run_te.py            # ETE por par, bootstrap, FDR, crisis vs calma, serie anual
+python gen_charts.py        # heatmap de la red, robustez de 9 sectores, crisis, anual
+python run_decomp.py        # descomposicion direccion vs magnitud (estados binarios) por par
+python gen_charts_decomp.py # scatter direccion vs magnitud (e8_decomp_pares.png)
 ```
 
 ## Configuración
@@ -33,4 +35,7 @@ sobre la historia común de ambas series. Seed 42.
 
 `outputs/results.json` (pares, p-values, flujo neto, crisis, serie anual),
 matrices CSV y los charts de la sección (incluye la robustez con los 9 sectores
-de historia completa).
+de historia completa). La descomposición en canales deja `decomp_results.json`,
+`decomp_pairs.csv` y `e8_decomp_pares.png`: misma ETE con estados binarios por
+signo (canal dirección) y por |r| sobre su mediana (canal magnitud), misma nula
+y FDR por canal, diferencia pareada con CI por bootstrap sobre pares.

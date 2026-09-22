@@ -1,5 +1,5 @@
 """Generate the AMH bridge figure: position of PE in the causal order across
-60 rolling windows on SPY (1993-2025)."""
+57 rolling windows on SPY (1993-2025)."""
 from __future__ import annotations
 
 import json

@@ -17,7 +17,7 @@ from helpers import (
 )
 from pipeline import run_causality
 
-PE_CONFIGS = [(3, 1, 20), (3, 1, 60), (4, 1, 120)]
+PE_CONFIGS = [(3, 1, 20), (3, 1, 140), (3, 1, 252)]
 BLOCK_SIZES = [15, 30, 60, 90]
 
 

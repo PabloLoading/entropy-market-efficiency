@@ -2,7 +2,7 @@
 frequency on 5 diverse assets over the past 2 years.
 
 Panel and methodology follow the daily version; the only differences are the
-data frequency, shorter windows (50 trading days ≈ 325 hours), and the block
+data frequency, shorter windows (100 trading days ≈ 700 hours), and the block
 size of the bootstrap tuned to the hourly resolution (~2 trading days).
 """
 from __future__ import annotations

@@ -52,7 +52,8 @@ HOURLY_ASSETS = ["SPY", "QQQ", "IWM", "XLU", "XLF", "XLK", "XLE", "TSLA"]
 # PE parameters (fixed, inherited from Parte I baseline)
 PE_M = 3
 PE_TAU = 1
-PE_WINDOW = 20
+PE_WINDOW = 140
+VOL_WINDOW = 20                  # volatilidad realizada y Amihud a 20 dias, como en la Parte I
 
 # Panel factors used in Parte II (small panel for smaller rolling windows)
 PARTE2_FACTORS = ["Returns", "Volatility", "Liquidity", "Entropy"]
@@ -96,9 +97,9 @@ def build_parte2_panel(prices, m=PE_M, tau=PE_TAU, pe_window=PE_WINDOW,
     log_ret = np.log(price / price.shift(1))
     entropy = rolling_perm_entropy(log_ret, m=m, tau=tau, window=pe_window,
                                     weighted=False, normalize=True)
-    volatility = log_ret.rolling(pe_window).std()
+    volatility = log_ret.rolling(VOL_WINDOW).std()
     dollar_volume = price * volume
-    liquidity = (log_ret.abs() / dollar_volume).rolling(pe_window).mean()
+    liquidity = (log_ret.abs() / dollar_volume).rolling(VOL_WINDOW).mean()
 
     panel = pd.DataFrame({
         "Returns": log_ret,

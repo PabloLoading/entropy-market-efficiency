@@ -82,20 +82,11 @@ def plot_main(pe_series, title, out_path, crisis_bands=CRISIS_BANDS):
 
 def plot_trend(pe_series, title, out_path):
     yearly = pe_series.resample("1YE").mean().dropna()
-    x = np.arange(len(yearly))
-    slope, intercept = np.polyfit(x, yearly.values, 1)
-    fit = slope * x + intercept
-    ss_res = np.sum((yearly.values - fit) ** 2)
-    ss_tot = np.sum((yearly.values - yearly.values.mean()) ** 2)
-    r2 = 1 - ss_res / ss_tot
 
     fig, ax = plt.subplots(figsize=(10, 4.2))
-    ax.plot(yearly.index, yearly.values, "o-", color="black", lw=1.2, ms=3, label="PE promedio anual")
-    ax.plot(yearly.index, fit, "--", color="crimson", lw=1.5,
-            label=f"Regresión lineal ($R^2={r2:.2f}$, slope={slope:+.2e}/año)")
+    ax.plot(yearly.index, yearly.values, "o-", color="black", lw=1.2, ms=3)
     ax.set_ylabel("PE promedio anual")
     ax.set_title(title, fontsize=11)
-    ax.legend(fontsize=9, loc="best")
     ax.grid(alpha=0.3)
     plt.tight_layout()
     fig.savefig(out_path, dpi=150, bbox_inches="tight")

@@ -36,3 +36,7 @@ dot-com, 2008, COVID y bear de tasas 2022 (ventanas pico-valle). Semillas fijas.
 
 `outputs/` con percentiles por config (CSV), resultados (JSON) y los charts de
 la sección (rotación, crisis, co-evolución, choropleth de mercados).
+
+## Corrección por multiplicidad
+
+`python run_bh.py` aplica Benjamini-Hochberg al 5% sobre la confianza direccional de los rankings anuales (11 sectores, 9 mercados, por ventana) y escribe `outputs/bh_correction.json`. Es post-procesamiento de `percentiles.json` y `markets_percentiles.json`; no recalcula el bootstrap.

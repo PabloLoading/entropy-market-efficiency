@@ -13,7 +13,7 @@ def main():
     run_subexperiment(
         name="daily", price=price,
         main_cfg=DAILY_MAIN, sens_cfg=DAILY_SENS,
-        title_main="PE rolling daily sobre ^GSPC (1928-2025)",
+        title_main="PE rolling daily sobre S&P 500 (1928-2025)",
         mk_freq="1YE", br_freq="1ME",
         n_breaks=10,
     )

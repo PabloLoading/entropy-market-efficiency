@@ -1,0 +1,320 @@
+{
+  "alpha": 0.05,
+  "p_value": "2 * (1 - confianza_direccional)",
+  "sectores": {
+    "w140": {
+      "XLK": {
+        "p_bilateral": 0.066,
+        "senal": "ineficiente (significativo al 90%)",
+        "bh_5pct": false
+      },
+      "XLE": {
+        "p_bilateral": 0.12,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLV": {
+        "p_bilateral": 0.912,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLF": {
+        "p_bilateral": 0.71,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLP": {
+        "p_bilateral": 0.982,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLY": {
+        "p_bilateral": 0.634,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLI": {
+        "p_bilateral": 0.932,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLU": {
+        "p_bilateral": 0.284,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLB": {
+        "p_bilateral": 0.538,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLRE": {
+        "p_bilateral": 0.848,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLC": {
+        "p_bilateral": 0.496,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      }
+    },
+    "w252": {
+      "XLK": {
+        "p_bilateral": 0.32,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLE": {
+        "p_bilateral": 0.026,
+        "senal": "eficiente (significativo al 95%)",
+        "bh_5pct": false
+      },
+      "XLV": {
+        "p_bilateral": 0.846,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLF": {
+        "p_bilateral": 0.102,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLP": {
+        "p_bilateral": 0.598,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLY": {
+        "p_bilateral": 0.796,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLI": {
+        "p_bilateral": 0.968,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLU": {
+        "p_bilateral": 0.262,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLB": {
+        "p_bilateral": 0.572,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLRE": {
+        "p_bilateral": 0.754,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLC": {
+        "p_bilateral": 0.554,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      }
+    },
+    "w504": {
+      "XLK": {
+        "p_bilateral": 0.042,
+        "senal": "ineficiente (significativo al 95%)",
+        "bh_5pct": false
+      },
+      "XLE": {
+        "p_bilateral": 0.004,
+        "senal": "eficiente (significativo al 99%)",
+        "bh_5pct": true
+      },
+      "XLV": {
+        "p_bilateral": 0.536,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLF": {
+        "p_bilateral": 0.0,
+        "senal": "ineficiente (significativo al 99%)",
+        "bh_5pct": true
+      },
+      "XLP": {
+        "p_bilateral": 0.766,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLY": {
+        "p_bilateral": 0.738,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLI": {
+        "p_bilateral": 0.664,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLU": {
+        "p_bilateral": 0.006,
+        "senal": "eficiente (significativo al 99%)",
+        "bh_5pct": true
+      },
+      "XLB": {
+        "p_bilateral": 0.116,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLRE": {
+        "p_bilateral": 0.712,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "XLC": {
+        "p_bilateral": 0.872,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      }
+    }
+  },
+  "mercados": {
+    "w140": {
+      "us": {
+        "p_bilateral": 0.004,
+        "senal": "ineficiente (significativo al 99%)",
+        "bh_5pct": true
+      },
+      "japon": {
+        "p_bilateral": 0.664,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "uk": {
+        "p_bilateral": 0.83,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "hongkong": {
+        "p_bilateral": 0.582,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "alemania": {
+        "p_bilateral": 0.636,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "australia": {
+        "p_bilateral": 0.624,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "brasil": {
+        "p_bilateral": 0.004,
+        "senal": "eficiente (significativo al 99%)",
+        "bh_5pct": true
+      },
+      "china": {
+        "p_bilateral": 0.96,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "india": {
+        "p_bilateral": 0.74,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      }
+    },
+    "w252": {
+      "us": {
+        "p_bilateral": 0.0,
+        "senal": "ineficiente (significativo al 99%)",
+        "bh_5pct": true
+      },
+      "japon": {
+        "p_bilateral": 0.918,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "uk": {
+        "p_bilateral": 0.254,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "hongkong": {
+        "p_bilateral": 0.616,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "alemania": {
+        "p_bilateral": 0.04,
+        "senal": "eficiente (significativo al 95%)",
+        "bh_5pct": false
+      },
+      "australia": {
+        "p_bilateral": 0.5,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "brasil": {
+        "p_bilateral": 0.006,
+        "senal": "eficiente (significativo al 99%)",
+        "bh_5pct": true
+      },
+      "china": {
+        "p_bilateral": 0.978,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "india": {
+        "p_bilateral": 0.166,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      }
+    },
+    "w504": {
+      "us": {
+        "p_bilateral": 0.0,
+        "senal": "ineficiente (significativo al 99%)",
+        "bh_5pct": true
+      },
+      "japon": {
+        "p_bilateral": 0.34,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "uk": {
+        "p_bilateral": 0.298,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "hongkong": {
+        "p_bilateral": 0.338,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "alemania": {
+        "p_bilateral": 0.05,
+        "senal": "eficiente (significativo al 90%)",
+        "bh_5pct": false
+      },
+      "australia": {
+        "p_bilateral": 0.17,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "brasil": {
+        "p_bilateral": 0.004,
+        "senal": "eficiente (significativo al 99%)",
+        "bh_5pct": true
+      },
+      "china": {
+        "p_bilateral": 0.556,
+        "senal": "sin señal formal",
+        "bh_5pct": false
+      },
+      "india": {
+        "p_bilateral": 0.0,
+        "senal": "ineficiente (significativo al 99%)",
+        "bh_5pct": true
+      }
+    }
+  }
+}
